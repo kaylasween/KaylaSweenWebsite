@@ -12,7 +12,7 @@ console.log(logo)
 
 const Header = ({ siteTitle }) => (
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
-  <Navbar.Brand href="#home"><img src={logo} alt="Kayla Sween logo" class="navbar-logo" /> Kayla Sween</Navbar.Brand>
+  <Navbar.Brand href="/"><img src={logo} alt="Kayla Sween logo" class="navbar-logo" /> Kayla Sween</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ml-auto">
