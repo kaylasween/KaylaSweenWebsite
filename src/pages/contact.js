@@ -4,46 +4,47 @@ import Layout from '../components/layout'
 import Card from 'react-bootstrap/card'
 import Col from 'react-bootstrap/col'
 import Container from 'react-bootstrap/container'
+import Form from 'react-bootstrap/form'
 import Row from 'react-bootstrap/row'
 
 const ContactPage = () => (
   <Layout>
     <h1>Contact</h1>
-    <form>
+    <Form>
       <Card>
         <Card.Header>
           Contact
         </Card.Header>
         <Card.Body>
           <Container>
-            <Row>
-              <Col>
-                <label for="name">Name: </label>
-                <input type="text" id="name" class="form-control" />
+            <Form.Group as={Row}>
+              <Form.Label column for="name" lg={3}>Name: </Form.Label>
+              <Col lg={9}>
+                <Form.Control id="name" />
               </Col>
-            </Row>
-            <Row>
-              <Col>
-                <label for="email">Email: </label>
-                <input type="email" id="email" class="form-control" />
+            </Form.Group>
+            <Form.Group as={Row}>
+              <Form.Label column for="email" lg={3}>Email: </Form.Label>
+              <Col lg={9}>
+                <Form.Control type="email" id="email" />
               </Col>
-            </Row>
-            <Row>
-              <Col>
-                <label for="phoneNo">Phone Number: </label>
-                <input type="tel" id="phoneNo" class="form-control" />
+            </Form.Group>
+            <Form.Group as={Row}>
+              <Form.Label column for="phoneNo" lg={3}>Phone Number: </Form.Label>
+              <Col lg={6}>
+                <Form.Control type="tel" id="phoneNo" />
               </Col>
-            </Row>
-            <Row>
-              <Col>
-                <label for="message">Message: </label>
+            </Form.Group>
+            <Form.Group as={Row}>
+              <Form.Label column for="message" lg={3}>Message: </Form.Label>
+              <Col lg={9}>
                 <textarea id="message" class="form-control"></textarea>
               </Col>
-            </Row>
+            </Form.Group>
           </Container>
         </Card.Body>
       </Card>
-    </form>
+    </Form>
   </Layout>
 )
 
