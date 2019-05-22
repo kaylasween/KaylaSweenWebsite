@@ -18,6 +18,7 @@ const AboutPage = () => (
         especially accessibility. She has spoken at <a href="https://magnoliajs.com" target="_blank">MagnoliaJS</a> about accessibility.</p>
         <p>In her spare time, she enjoys learning new front-end technologies. Currently, she is learning <a href="" target="_blank">Gatsby</a>.</p>
         <p>She also enjoys travelling with her husband, Richard. </p>
+        <p>She is a gamer and enjoys supporting <a href="" target="_blank">Extra Life</a>.</p>
         <p>She has two dogs, Captain and Piper.</p>
         <p>Kayla also competes in powerlifting.</p>
       </Col>
