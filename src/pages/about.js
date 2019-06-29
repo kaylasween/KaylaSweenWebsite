@@ -20,8 +20,8 @@ const AboutPage = () => (
         <p>She also enjoys travelling with her husband, Richard. </p>
         <p>She is a gamer and enjoys supporting <a href="" target="_blank">Extra Life</a>.</p>
         <p>She has two dogs, Captain and Piper.</p>
-        <p>Kayla also competes in powerlifting. Her current lifts are 275.5lbs/125kg in the squat, 187.4lbs/85kg in the bench press,
-        and 319.6lbs/145kg in the deadlift.</p>
+        <p>Kayla also competes in powerlifting. Her current best lifts are 275.5lbs/125kg in the squat, 187.4lbs/85kg in the bench press,
+        and 319.6lbs/145kg in the deadlift. She is also a certified <a href="https://coaching.usapowerlifting.com/certified-coaches/">USA Powerlifting Club Coach</a>.</p>
       </Col>
     </Row>
   </Layout>
