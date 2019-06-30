@@ -3,15 +3,17 @@ import Layout from '../components/layout'
 
 import Col from 'react-bootstrap/col'
 import Container from 'react-bootstrap/container'
-import deadlift from '../images/IMG_7742.jpeg'
 import Row from 'react-bootstrap/row'
+
+import Captain from '../images/Captain.jpg'
+import Piper from '../images/Piper.jpg'
 
 const AboutPage = () => (
   <Layout>
     <h1>About</h1>
     <Row>
       <Col>
-        <p>img here</p>
+        <img src={Captain} alt="Captain, Kayla's short-haired Jack Russell Terrier laying down." />
       </Col>
       <Col>
         <p>Kayla is a front-end developer who is passionate about inclusive design. She is an advocate for user experience,
@@ -29,7 +31,7 @@ const AboutPage = () => (
         Powerlifting Club Coach</a>.</p>
       </Col>
       <Col>
-      
+        <img src={Piper} alt="Piper, Kayla's long-haired Jack Russell Terrier, sitting down with a lavender-colored bow around her neck." />
       </Col>
     </Row>
   </Layout>
