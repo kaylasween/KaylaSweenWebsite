@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 
 import Card from 'react-bootstrap/card'
 import Col from 'react-bootstrap/col'
