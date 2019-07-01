@@ -7,11 +7,11 @@ import Card from 'react-bootstrap/Card'
 
 const BlogCard = ({ post }) => (
   <Card padding={30}>
-      <Link to={post.slug}>
+      <a href={'https://dev.to/kaylasween/' + post.slug}>
         <div className="content">
           <h3>{post.title}</h3>
         </div>
-      </Link>
+      </a>
       <h4>
         <Link to="/">{post.readable_publish_date}</Link>
       </h4>
