@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/container'
 import Row from 'react-bootstrap/row'
 
 import Captain from '../images/Captain.jpg'
+import Kayla from '../images/Kayla.jpg'
 import Piper from '../images/Piper.jpg'
 
 const AboutPage = () => (
@@ -13,7 +14,7 @@ const AboutPage = () => (
     <h1>About</h1>
     <Row>
       <Col>
-        <img src={Captain} alt="Captain, Kayla's short-haired Jack Russell Terrier laying down." />
+        <img src={Kayla} alt="Kayla" />
       </Col>
       <Col>
         <p>Kayla is a front-end developer who is passionate about inclusive design. She is an advocate for user experience,
