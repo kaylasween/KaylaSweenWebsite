@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 
 import Col from 'react-bootstrap/col'
 import Container from 'react-bootstrap/container'
@@ -15,9 +15,9 @@ const PowerliftingPage = () => (
         <img src={deadlift} alt="Kayla deadlifting 298lbs." />
       </Col>
       <Col>
+        <p>Programming</p>
         <p>certification</p>
         <p>Best lifts</p>
-        <p>free programs?</p>
       </Col>
     </Row>
   </Layout>

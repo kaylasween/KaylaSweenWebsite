@@ -8,6 +8,8 @@ import logo from '../images/Sween-logo-white.png'
 
 import './header.css'
 
+
+//TODO: add active class to current nav page.
 const Header = ({ siteTitle }) => (
   <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
   <Navbar.Brand href="/"><img src={logo} alt="Kayla Sween logo" class="navbar-logo" /> Kayla Sween</Navbar.Brand>
