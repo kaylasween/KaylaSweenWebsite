@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from 'components/Layout'
 
-const UsesPage = () => {
+const UsesPage = () => (
     <Layout>
         <h1>Things I use</h1>
         <p>Hardware</p>
@@ -32,6 +32,6 @@ const UsesPage = () => {
             <li>Desk: Ikea sit/stand thing</li>
         </ul>
     </Layout>
-}
+)
 
 export default UsesPage
