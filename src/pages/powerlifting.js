@@ -1,9 +1,9 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
-import Col from 'react-bootstrap/col'
-import Container from 'react-bootstrap/container'
-import Row from 'react-bootstrap/row'
+import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
 
 import deadlift from '../images/IMG_7742.jpeg'
 
