@@ -8,8 +8,9 @@ import SEO from '../components/seo'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab)
+library.add(fab, fas)
 
 const IndexPage = () => (
   <Layout>
