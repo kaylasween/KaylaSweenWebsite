@@ -5,8 +5,6 @@ import { Link } from "gatsby"
 
 import Card from 'react-bootstrap/Card'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import './blogCard.css'
 
 
