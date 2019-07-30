@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Dev from '../images/dev-brands.svg'
 import GitHub from '../images/github-brands.svg'
