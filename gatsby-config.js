@@ -4,9 +4,6 @@ module.exports = {
     description: `Kayla Sween's website. It contains Kayla's current and past projects and tells you about her life.`,
     author: `@kaylasween`,
   },
-  css: [
-    '@fortawesome/fontawesome/styles.css'
-  ],
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
