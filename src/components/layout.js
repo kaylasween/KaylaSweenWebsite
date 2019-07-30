@@ -32,6 +32,7 @@ const Layout = ({ children }) => (
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
   crossorigin="anonymous"
 />
+      <a href="#main" className="sr-only sr-only-focusable">Skip to Main Content</a>
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
@@ -41,7 +42,7 @@ const Layout = ({ children }) => (
             paddingTop: 0,
           }}
         >
-          <main>{children}</main>
+          <main id="main">{children}</main>
           <Footer />
         </div>
       </>
