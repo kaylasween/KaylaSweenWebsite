@@ -4,6 +4,9 @@ module.exports = {
     description: `Kayla Sween's website. It contains Kayla's current and past projects and tells you about her life.`,
     author: `@kaylasween`,
   },
+  css: [
+    '@fortawesome/fontawesome/styles.css'
+  ]
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -27,6 +30,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `font-awesome`, 
     {
       resolve: "gatsby-source-dev",
       options: {
