@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
-import Card from 'react-bootstrap/card'
-import Col from 'react-bootstrap/col'
-import Container from 'react-bootstrap/container'
-import Form from 'react-bootstrap/form'
-import Row from 'react-bootstrap/row'
+import Card from 'react-bootstrap/Card'
+import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
+import Form from 'react-bootstrap/Form'
+import Row from 'react-bootstrap/Row'
 
 const ContactPage = () => (
   <Layout>
