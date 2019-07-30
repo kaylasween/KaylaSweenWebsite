@@ -1,4 +1,8 @@
 .blog-card {
     padding: 1em;
-    margin: 1em;
+    margin-bottom: 1em;
+}
+
+.tag {
+    margin-right: 1em;
 }
