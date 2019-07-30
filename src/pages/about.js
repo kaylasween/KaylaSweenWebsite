@@ -3,9 +3,9 @@ import Layout from '../components/Layout'
 
 import { Link } from 'gatsby'
 
-import Col from 'react-bootstrap/col'
-import Container from 'react-bootstrap/container'
-import Row from 'react-bootstrap/row'
+import Col from 'react-bootstrap/Col'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
 
 import Captain from '../images/Captain.jpg'
 import Kayla from '../images/Kayla.jpg'
