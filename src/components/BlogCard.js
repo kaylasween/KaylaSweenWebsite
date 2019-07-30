@@ -20,13 +20,13 @@ const BlogCard = ({ post }) => (
     <Card.Subtitle>
       Published on {post.readable_publish_date} 
     </Card.Subtitle>
-    <Card.Link className="tags">
+    <Card.Text className="tags">
       {post.tag_list_array.map((tag, key) => (
         <a key={key} href={'https://dev.to/t/' + tag}>
           <span className="tag">{`#${tag}`}</span>
         </a>
       ))}
-    </Card.Link>
+    </Card.Text>
   </Card>
 )
 

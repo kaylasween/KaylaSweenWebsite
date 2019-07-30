@@ -1,6 +1,8 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
+import { Link } from 'gatsby'
+
 import Col from 'react-bootstrap/col'
 import Container from 'react-bootstrap/container'
 import Row from 'react-bootstrap/row'
@@ -16,23 +18,48 @@ const AboutPage = () => (
       <Col>
         <img src={Kayla} alt="Kayla" />
       </Col>
-      <Col>
-        <p>Kayla is a front-end developer who is passionate about inclusive design. She is an advocate for user experience,
-        especially accessibility. She has spoken at <a href="https://magnoliajs.com">MagnoliaJS</a> about accessibility.</p>
-        <p>In her spare time, she enjoys learning new front-end technologies. Currently, she is learning <a href="">Gatsby</a>.</p>
-        <p>She also enjoys travelling with her husband, Richard. </p>
-        <p>She is a gamer and enjoys supporting <a href="https://www.extra-life.org/participant/305822">Extra Life</a>.</p>
+      <Col md={9}>
+        <p>
+          Hi! I'm Kayla. I am a front-end developer who is passionate about inclusive design. I advocate for user experience, especially accessibility.
+        </p>
+        <p>
+          I enjoy teaching others about accessibility through various speaking engagements, which can be found in the <Link to="/talks">talks section of my site</Link>, and other front-end stuff. I also enjoy learning about new front-end technologies 
+          that I don't necessarily get to use in my day-to-day work. Currently, I am learning to use <a href="https://www.gatsbyjs.org">Gatsby</a>.
+        </p>
+        <p>
+          I love playing video games. I primarily play on my Xbox One but have been known to do some PC gaming. Currently, we're playing Minecraft 
+          with a couple of friends. Through gaming, I am able to support Blair E. Batson Children's Hospital, Mississippi's only children's hospital, 
+          via <a href="https://www.extra-life.org/participant/305822">Extra Life</a>.
+        </p>
       </Col>
-      </Row>
-      <Row>
-      <Col>
-        <p>She has two dogs, Captain and Piper.</p>
-        <p>Kayla also competes in powerlifting. Her current best lifts are 275.5lbs/125kg in the squat, 187.4lbs/85kg in the bench press,
-        and 319.6lbs/145kg in the deadlift. She is also a certified <a href="https://coaching.usapowerlifting.com/certified-coaches/">USA 
-        Powerlifting Club Coach</a>.</p>
+    </Row>
+    <Row>
+      <Col md={9}>
+        <p>
+          I'm happily married to my husband, <a href="https://richardsween.com">Richard</a>. Richard is also a software developer. We love to travel, game, 
+          and freelance together. 
+        </p>
+        <p>
+          Richard and I have two dogs, Captain and Piper. Captain is a 7-year-old, short-haired Jack Russell Terrier. We've been told we should have named 
+          him Wishbone because of the markings on his face. He loves sunbathing and napping. Piper is a 2-year-old, wire-haired Jack Russell Terrier. 
+          She also goes by Pipathan Louise, Piberham, and most often, Pipey. She's our wild child.
+        </p>
       </Col>
+      <Col>
+        <img src={Captain} alt="Captain, Kayla's short-haired Jack Russell Terrier, laying down on a patch of carpet." />
+      </Col>
+    </Row>
+    <Row>
       <Col>
         <img src={Piper} alt="Piper, Kayla's long-haired Jack Russell Terrier, sitting down with a lavender-colored bow around her neck." />
+      </Col>
+      <Col md={9}>
+        
+        <p>
+          I am a competitive powerlifter. I love competing and learning about different ways to make myself stronger. I became a USA Powerlifting Certified 
+          Club Coach to spread the word about women's powerlifting and also to help others find their strength. You can find out more about my powerlifting 
+          endeavors on the <Link to="/powerlifting">powerlifting section of my site</Link>.
+        </p>
       </Col>
     </Row>
   </Layout>
