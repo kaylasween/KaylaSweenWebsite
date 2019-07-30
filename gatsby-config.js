@@ -6,7 +6,7 @@ module.exports = {
   },
   css: [
     '@fortawesome/fontawesome/styles.css'
-  ]
+  ],
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
