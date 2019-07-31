@@ -25,6 +25,7 @@ const BlogCard = ({ post }) => (
         </a>
       ))}
     </Card.Text>
+    
   </Card>
 )
 
