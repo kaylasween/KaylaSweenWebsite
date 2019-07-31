@@ -36,13 +36,13 @@ const AboutPage = () => (
     <Row>
       <Col md={9}>
         <p>
-          I'm happily married to my husband, <a href="https://richardsween.com">Richard</a>. Richard is also a software developer. We love to travel, game, 
-          and freelance together. 
+          I am a competitive powerlifter. I love competing and learning about different ways to make myself stronger. I became a USA Powerlifting Certified 
+          Club Coach to spread the word about women's powerlifting and also to help others find their strength. You can find out more about my powerlifting 
+          endeavors on the <Link to="/powerlifting">powerlifting section of my site</Link>.
         </p>
         <p>
-          Richard and I have two dogs, Captain and Piper. Captain is a 7-year-old, short-haired Jack Russell Terrier. We've been told we should have named 
-          him Wishbone because of the markings on his face. He loves sunbathing and napping. Piper is a 2-year-old, wire-haired Jack Russell Terrier. 
-          She also goes by Pipathan Louise, Piberham, and most often, Pipey. She's our wild child.
+          I'm happily married to my husband, <a href="https://richardsween.com">Richard</a>. Richard is also a software developer. We love to travel, game, 
+          and freelance together. 
         </p>
       </Col>
       <Col>
@@ -54,11 +54,10 @@ const AboutPage = () => (
         <img src={Piper} alt="Piper, Kayla's long-haired Jack Russell Terrier, sitting down with a lavender-colored bow around her neck." />
       </Col>
       <Col md={9}>
-        
         <p>
-          I am a competitive powerlifter. I love competing and learning about different ways to make myself stronger. I became a USA Powerlifting Certified 
-          Club Coach to spread the word about women's powerlifting and also to help others find their strength. You can find out more about my powerlifting 
-          endeavors on the <Link to="/powerlifting">powerlifting section of my site</Link>.
+          Richard and I have two dogs, Captain and Piper. Captain is a 7-year-old, short-haired Jack Russell Terrier. We've been told we should have named 
+          him Wishbone because of the markings on his face. He loves sunbathing and napping. Piper is a 2-year-old, wire-haired Jack Russell Terrier. 
+          She also goes by Pipathan Louise, Piberham, and most often, Pipey. She's our wild child.
         </p>
       </Col>
     </Row>
