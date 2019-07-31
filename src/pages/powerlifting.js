@@ -14,7 +14,7 @@ const PowerliftingPage = () => (
       <Col>
         <img src={deadlift} alt="Kayla deadlifting 298lbs." />
       </Col>
-      <Col>
+      <Col md={6}>
         <h2>Programming</h2>
         <p>I'll be offering programming-only coaching options over at <a href="">Coaching Business</a> soon!</p>
         <h2>Certification</h2>
