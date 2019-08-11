@@ -1,9 +1,12 @@
+import React from 'react'
+import PropTypes from 'prop-types'
+
 import { Link } from 'gatsby'
+
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
-import PropTypes from 'prop-types'
-import React from 'react'
+
 import logo from '../images/Sween-logo-white.png'
 
 import './header.css'
