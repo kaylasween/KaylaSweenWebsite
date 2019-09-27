@@ -3,10 +3,6 @@ import PropTypes from 'prop-types'
 
 import { Link } from 'gatsby'
 
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
-
 import logo from '../images/Sween-logo-white.png'
 
 import './header.css'
@@ -14,24 +10,14 @@ import './header.css'
 
 //TODO: add active class to current nav page.
 const Header = ({ siteTitle }) => (
-  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
-    <div className="container">
-      <Navbar.Brand href="/"><img src={logo} alt="Kayla Sween logo" className="navbar-logo" /> Kayla Sween</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav>
-          <Nav.Link href="/blog/">Blog</Nav.Link>
-          <Nav.Link href="/powerlifting/">Powerlifting</Nav.Link>
-          <Nav.Link href="/projects/">Projects</Nav.Link>
-          <Nav.Link href="/talks/">Talks</Nav.Link>
-        </Nav>
-        <Nav className="ml-auto">
-          <Nav.Link href="/about/">About</Nav.Link>
-          <Nav.Link href="/contact/">Contact</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </div>
-  </Navbar>
+  <ul>
+    <li><Link href="/blog/">Blog</Link></li>
+    <li><Link href="/powerlifting/">Powerlifting</Link></li>
+    <li><Link href="/projects/">Projects</Link></li>
+    <li><Link href="/talks/">Talks</Link></li>
+    <li><Link href="/about/">About</Link></li>
+    <li><Link href="/contact/">Contact</Link></li>
+  </ul>
 )
 
 Header.propTypes = {

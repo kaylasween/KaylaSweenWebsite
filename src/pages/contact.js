@@ -4,9 +4,6 @@ import Layout from '../components/Layout'
 const ContactPage = () => (
   <Layout>
     <h1>Contact</h1>
-    <Form>
-      
-    </Form>
   </Layout>
 )
 
