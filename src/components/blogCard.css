@@ -1,6 +1,7 @@
 .blog-card {
     padding: 1em;
     margin-bottom: 1em;
+    border: 1px solid #333333;
 }
 
 .tag {

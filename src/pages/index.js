@@ -6,7 +6,6 @@ import Layout from '../components/Layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
 
-import Kayla from '../images/KaylaTheGrey.jpg'
 import { getAutomaticTypeDirectiveNames } from 'typescript';
 
 const IndexPage = () => (

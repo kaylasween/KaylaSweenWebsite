@@ -7,7 +7,7 @@ import './blogCard.css'
 
 
 const BlogCard = ({ post }) => (
-  <div>
+  <div className="blog-card">
       <a href={'https://dev.to/kaylasween/' + post.slug}>
         <h3>{post.title}</h3>
       </a>
