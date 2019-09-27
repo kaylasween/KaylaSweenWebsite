@@ -1,7 +1,7 @@
 nav {
   text-align: center;
   padding: 2rem;
-  margin: 1rem;
+  margin: 1rem 30rem;
 }
 
 ul {
@@ -11,6 +11,6 @@ ul {
 }
 
 img {
-  width: 10%;
+  width: 10rem;
   margin: 1rem;
 }
