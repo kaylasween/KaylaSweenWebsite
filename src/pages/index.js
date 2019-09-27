@@ -12,7 +12,6 @@ import { getAutomaticTypeDirectiveNames } from 'typescript';
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`Kayla`, `Sween`, `Kayla Sween`, `Web Development`]} />
-    <img src={Kayla} alt="Kayla smiling looking at camera with makeup on, which is rare." />
     <h1>Hi! I'm Kayla. I am a front-end developer, powerlifter, and dog mom.</h1>
   </Layout>
 )
