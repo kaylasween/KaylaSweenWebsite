@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 
 import logo from '../images/Sween-logo-color.png'
 
-import './header.css'
+import("../styles/layout/_header.scss")
 
 
 //TODO: add active class to current nav page.

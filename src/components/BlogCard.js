@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 // import styled from '@emotion/styled'
 
-import './blogCard.css'
+import("../styles/components/_blog-card.scss")
 
 
 const BlogCard = ({ post }) => (

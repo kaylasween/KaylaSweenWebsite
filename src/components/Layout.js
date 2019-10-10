@@ -11,7 +11,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './Header'
 import Footer from './Footer'
-import './layout.css'
+import("../styles/layout/_layout.scss")
 
 const Layout = ({ children }) => (
   <StaticQuery
