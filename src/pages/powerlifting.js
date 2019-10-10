@@ -6,7 +6,7 @@ import deadlift from '../images/IMG_7742.jpeg'
 const PowerliftingPage = () => (
   <Layout>
     <h1>Powerlifting</h1>
-    <img src={deadlift} alt="Kayla deadlifting 298lbs." />
+    <img class="body__img" src={deadlift} alt="Kayla deadlifting 298lbs." />
     <h2>Programming</h2>
     <p><em>I'll be offering programming-only coaching options soon!</em></p>
     <h2>Certification</h2>
