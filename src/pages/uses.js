@@ -16,10 +16,10 @@ const UsesPage = () => (
             <ul>
                 <li>Theme: Synthwave '84 with glow.</li>
             </ul>
-            <li>IntelliJ (at work)</li>
         </ul>
         <p>Design</p>
         <ul>
+            <li>Figma (primary)</li>
             <li>Adobe XD</li>
         </ul>
         <p>Organization</p>
@@ -30,6 +30,7 @@ const UsesPage = () => (
         <ul>
             <li>Spotify</li>
             <li>Desk: Ikea sit/stand thing</li>
+            <li>Chair: exercise ball.</li>
         </ul>
     </Layout>
 )
