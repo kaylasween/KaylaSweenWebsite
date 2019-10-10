@@ -8,12 +8,17 @@ const PowerliftingPage = () => (
     <h1>Powerlifting</h1>
     <img src={deadlift} alt="Kayla deadlifting 298lbs." />
     <h2>Programming</h2>
-    <p>I'll be offering programming-only coaching options over at <a href="">Coaching Business</a> soon!</p>
+    <p><em>I'll be offering programming-only coaching options soon!</em></p>
     <h2>Certification</h2>
-    <p>I'm a <a href="https://coaching.usapowerlifting.com/certified-coaches/">USA Powerlifting (USAPL) Certified Club Coach</a>, which means I can coach competitive powerlifters at the local and state level at USAPL
-          events. This also means I understand the mechanics of human movement and the principles and methodology of strength training.</p>
+    <p>I'm a <a href="https://coaching.usapowerlifting.com/certified-coaches/">USA Powerlifting (USAPL) Certified Club Coach</a>, which means 
+    I can coach competitive powerlifters at the local and state level at USAPL events. This also means I understand the mechanics of human movement 
+    and the principles and methodology of strength training.</p>
+    <p>I'm very passionate about powerlifting and am always trying to improve my knowledge when it comes to training for myself and coaching 
+      other athletes. Next up on my strength training reading list is <a 
+      href="https://aasgaardco.com/store/books-posters-dvd/books/starting-strength-basic-barbell-training/"><em>Starting Strength: 
+        Basic Barbell Training</em> by Mark Rippetoe</a>.</p>
     <h2>Best Lifts</h2>
-    <p>Currently, my best lifts are as follows:</p>
+    <p>Currently, my best competition lifts are as follows:</p>
     <ul>
       <li>Squat: 275.5lbs/125kg</li>
       <li>Bench Press: 187.4lbs/85kg</li>
