@@ -11,7 +11,7 @@ const BlogCard = ({ post }) => (
       <a href={'https://dev.to/kaylasween/' + post.slug}>
         <h3>{post.title}</h3>
       </a>
-      <div class="flex">
+      <div class="blog-card__footer">
         Published on {post.readable_publish_date} 
         {post.tag_list_array.map((tag, key) => (
           <a key={key} href={'https://dev.to/t/' + tag}>

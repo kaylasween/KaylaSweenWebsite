@@ -4,6 +4,11 @@
     border: 1px solid #333333;
 }
 
+.blog-card__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
 .tag {
     margin-right: 1em;
 }
