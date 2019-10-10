@@ -14,14 +14,14 @@ const Header = ({ siteTitle }) => (
     <Link to="/">
       <img src={logo} alt="Kayla's logo: a mint owl with a backwards K and S that make up the face. Clicking on this redirects to the home page." />
     </Link>
-    <ul>
+    {/* <ul> */}
       {/* <li><Link to="/about/">About</Link></li> */}
       {/* <li><Link to="/blog/">Blog</Link></li> */}
       {/* <li><Link to="/powerlifting/">Powerlifting</Link></li> */}
       {/* <li><Link to="/projects/">Projects</Link></li> */}
       {/* <li><Link to="/talks/">Talks</Link></li> */}
       {/* <li><Link to="/contact/">Contact</Link></li> */}
-    </ul>
+    {/* </ul> */}
   </nav>
 )
 
