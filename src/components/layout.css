@@ -5,11 +5,13 @@ main {
   max-width: 60vw;
   padding: 0 1.0875rem 1.45rem;
 }
+
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: #FAFAFA;
   color: #333333;
 }
+
 img {
   width: 30rem;
   max-width: 30vw;

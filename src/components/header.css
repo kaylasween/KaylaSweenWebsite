@@ -1,3 +1,17 @@
-.navbar-logo {
-  width: 3em;
+nav {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem .5vw;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: auto 10vw;
+}
+
+img.ks-logo {
+  width: 10rem;
+  margin: 1rem;
 }

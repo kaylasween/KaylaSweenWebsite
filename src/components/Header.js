@@ -3,35 +3,26 @@ import PropTypes from 'prop-types'
 
 import { Link } from 'gatsby'
 
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
-
-import logo from '../images/Sween-logo-white.png'
+import logo from '../images/Sween-logo-color.png'
 
 import './header.css'
 
 
 //TODO: add active class to current nav page.
 const Header = ({ siteTitle }) => (
-  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
-    <div className="container">
-      <Navbar.Brand href="/"><img src={logo} alt="Kayla Sween logo" className="navbar-logo" /> Kayla Sween</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav>
-          <Nav.Link href="/blog/">Blog</Nav.Link>
-          <Nav.Link href="/powerlifting/">Powerlifting</Nav.Link>
-          <Nav.Link href="/projects/">Projects</Nav.Link>
-          <Nav.Link href="/talks/">Talks</Nav.Link>
-        </Nav>
-        <Nav className="ml-auto">
-          <Nav.Link href="/about/">About</Nav.Link>
-          <Nav.Link href="/contact/">Contact</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </div>
-  </Navbar>
+  <nav>
+    <Link to="/">
+      <img class="ks-logo" src={logo} alt="Kayla's logo: a mint owl with a backwards K and S that make up the face. Clicking on this redirects to the home page." />
+    </Link>
+    <ul>
+      <li><Link to="/about/">About</Link></li>
+      <li><Link to="/blog/">Blog</Link></li>
+      <li><Link to="/powerlifting/">Powerlifting</Link></li>
+      <li><Link to="/projects/">Projects</Link></li>
+      <li><Link to="/talks/">Talks</Link></li>
+      <li><Link to="/contact/">Contact</Link></li>
+    </ul>
+  </nav>
 )
 
 Header.propTypes = {

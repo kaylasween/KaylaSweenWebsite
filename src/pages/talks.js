@@ -8,8 +8,6 @@ const Talks = () => (
     <h2>Conferences</h2>
     <h3><a href="https://magnoliajs.com">MagnoliaJS</a></h3>
     <p>I spoke about avoiding SUX, or some user experience, at MagnoliaJS in 2019. You can find the slides for that on my GitHub. </p>
-    <h3><a href="https://promptconf.com">PromptConf</a></h3>
-    <p>I'll be speaking about the four principles of accessibility in a lightning talk at PrompConf in September 2019.</p>
     <h3><a href="https://www.renderatl.com">Render(ATL)</a></h3>
     <p>I'll be speaking at Render(ATL) in May 2020. I hope to see you there!</p>
     <h2>Meetups</h2>
