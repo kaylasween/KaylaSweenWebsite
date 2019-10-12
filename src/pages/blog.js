@@ -1,11 +1,14 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
+
+
 import BlogCard from '../components/BlogCard'
 
 const BlogPage = ({ data }) => (
   <Layout>
     <h1>Blog</h1>
+    <p>{data.allDevArticles.totalCount} posts</p>
     {data.allDevArticles.edges.map((node, key) => (
       <BlogCard
         key={key}
@@ -31,19 +34,16 @@ export const query = graphql`
       edges {
         node {
           article {
+            body_html
             id
-            path
             title
             slug
             tag_list
             readable_publish_date
-            published_at
-            positive_reactions_count
-            comments_count
-            social_image
           }
         }
       }
+      totalCount
     }
   }
 `

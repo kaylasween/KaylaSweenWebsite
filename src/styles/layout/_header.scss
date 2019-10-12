@@ -6,8 +6,11 @@ nav {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    padding-left: 0;
     li {
       border: 1px solid #333333;
+      border-radius: 0.25rem;
+      min-width: 7rem;
       a {
         text-decoration: none;
         color: #333333;
