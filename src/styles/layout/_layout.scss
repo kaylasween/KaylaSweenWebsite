@@ -1,7 +1,12 @@
+@import '../utilities';
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #FAFAFA;
   color: #333333;
+  a {
+    color: #28587B;
+  }
 }
 
 img {

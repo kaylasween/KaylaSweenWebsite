@@ -5,3 +5,24 @@
 .space-between {
     justify-content: space-between;
 }
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    img {
+        width: 30%;
+    }
+}
+
+.row:nth-of-type(odd) {
+    img {
+        margin-right: 1rem;
+    }
+}
+
+.row:nth-of-type(even) {
+    flex-direction: row-reverse;
+    img {
+        margin-left: 1rem;
+    }
+}

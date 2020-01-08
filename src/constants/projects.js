@@ -42,7 +42,7 @@ const projects = [
     {
         project: 'Web Accessibility Work',
         url: '',
-        description:'In my current position, I have become FNC, Inc.\'s accessibility expert. I have done my own research, reading books and blog posts about accessibility so that I could become knowledgable enough to teach it to other developers in the workshop class we held in 2016. Today, I write blog posts about accessibility for FNC, some of which can be found in the Blog section of my website. A more extensive collection of my blog posts can be found on FNC\'s technical blog, Software Unwound.',
+        description:'In my first position, I was tasked with becoming FNC, Inc.\'s accessibility expert. I did my own research, reading books and blog posts about accessibility so that I could become knowledgable enough to teach it to other developers in the workshop class we held in 2016. Today, I write blog posts about accessibility on The Dev Community. These can be found in the blog section of my website. My older blog posts can be found on FNC\'s technical blog, Software Unwound, and on my GitHub.',
         github: ''
     }
 ]

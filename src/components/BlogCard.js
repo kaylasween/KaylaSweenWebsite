@@ -5,28 +5,24 @@ import ReactHtmlParser from 'react-html-parser';
 
 // import styled from '@emotion/styled'
 
-import("../styles/components/_blog-card.scss")
+import "../styles/components/_blog-card.scss"
 
-export const BlogContent = ({ body }) => (
-  <p>
-    {ReactHtmlParser(body)}
-  </p>
-)
+// export const BlogContent = ({ body }) => (
+//   <p>
+//     {body}
+//   </p>
+// )
 
 const BlogCard = ({ post }) => (
   <div className="blog-card">
-      <a href={'https://dev.to/kaylasween/' + post.slug}>
-        <h2>{post.title}</h2>
-      </a>
-      <BlogContent body={post.body_html} />
-      <div class="blog-card__footer">
-        Published on {post.readable_publish_date} 
-        {post.tag_list_array.map((tag, key) => (
-          <a key={key} href={'https://dev.to/t/' + tag}>
-            <span className="tag">{`#${tag}`}</span>
-          </a>
-        ))}
-      </div>
+    <Link to={post.frontmatter.path}>
+      <h2>{post.frontmatter.title}</h2>
+    </Link>
+    {/* <BlogContent body={post.exerpt} /> */}
+    <p>{post.experpt}</p>
+    <div class="blog-card__footer">
+      Published on {post.frontmatter.date}
+    </div>
   </div>
 )
 

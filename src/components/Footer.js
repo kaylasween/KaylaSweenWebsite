@@ -5,7 +5,7 @@ import Dev from '../images/dev-brands.svg'
 import GitHub from '../images/github-brands.svg'
 import Twitter from '../images/twitter-brands.svg'
 
-import("../styles/layout/_footer.scss")
+import "../styles/layout/_footer.scss"
 
 const Footer = () => (
   <footer>

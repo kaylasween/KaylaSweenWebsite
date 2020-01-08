@@ -1,0 +1,19 @@
+.active:before {
+  content: '{  '
+}
+
+.active:after {
+  content: '  }'
+}
+
+.navLi {
+  border-bottom: 3px solid transparent;
+  a {
+    text-decoration: none;
+    padding: 1rem;
+    line-height: 3rem;
+  }
+}
+.navLi:hover {
+  border-bottom: 3px solid #28587B;
+}

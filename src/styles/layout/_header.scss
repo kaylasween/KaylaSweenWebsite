@@ -7,23 +7,6 @@ nav {
     display: flex;
     justify-content: space-between;
     padding-left: 0;
-    li {
-      border: 1px solid #333333;
-      border-radius: 0.25rem;
-      min-width: 7rem;
-      a {
-        text-decoration: none;
-        color: #333333;
-        padding: 1rem;
-        line-height: 3rem;
-      }
-    }
-    li:hover {
-      background-color: #333333;
-      a {
-        color: #FFFFFF;
-      }
-    }
   }
   img.ks-logo {
     width: 10rem;

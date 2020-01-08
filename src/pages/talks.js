@@ -9,10 +9,10 @@ const Talks = () => (
     <h3><a href="https://magnoliajs.com">MagnoliaJS</a></h3>
     <p>I spoke about avoiding SUX, or some user experience, at MagnoliaJS in 2019. You can find the slides for that on my GitHub. </p>
     <h3><a href="https://www.renderatl.com">Render(ATL)</a></h3>
-    <p>I'll be speaking at Render(ATL) in May 2020. I hope to see you there!</p>
+    <p>I'll be speaking at Render(ATL) in May 2020 about progressive enhancement for React. I hope to see you there!</p>
     <h2>Meetups</h2>
     <h3><a href="https://jacksondevs.tech">Jackson Area Web and App Developers (JAWAD) Meetup</a></h3>
-    <p>You can find the <a href="https://github.com/kaylasween/JAWAD-Pour/blob/master/pour.png">slides for my talk about P.O.U.R.</a> at the July 2019 JAWAD 
+    <p>You can find the <a href="https://github.com/kaylasween/JAWAD-Pour/blob/master/pour.png">slides for my talk about P.O.U.R.</a> at the July 2019 JAWAD
     Meetup on Github.</p>
   </Layout>
 )
