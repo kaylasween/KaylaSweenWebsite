@@ -24,14 +24,11 @@ export const query = graphql`
 `
 
 const BlogPage = ({
-  // data: {
-  //   allMarkdownRemark: { edges }
-  // },
+  data,
 }) => (
     <Layout>
       <h1>Blog</h1>
-      <p><em>I'm working on getting all of my posts onto my website!</em> In the meantime, you can check out my writing on <a href="https://dev.to/kaylasween">The Dev Community</a>!</p>
-      {/* <p>{data.allMarkdownRemark.totalCount} posts</p>
+      <p>{data.allMarkdownRemark.edges.length} {data.allMarkdownRemark.edges.length !== 1 ? 'posts' : 'post'}</p>
       {data.allMarkdownRemark.edges.map(edge => (
         <BlogCard
           key={edge.node.id}
@@ -39,35 +36,8 @@ const BlogPage = ({
             ...edge.node,
           }}
         />
-      ))} */}
+      ))}
     </Layout>
   )
 
 export default BlogPage
-
-
-
-// export const query = graphql`
-//   query BlogPageQuery {
-//     allDevArticles (
-//       sort: {
-//         fields: [article___published_at],
-//         order: DESC
-//       }
-//     ) {
-//       edges {
-//         node {
-//           article {
-//             body_html
-//             id
-//             title
-//             slug
-//             tag_list
-//             readable_publish_date
-//           }
-//         }
-//       }
-//       totalCount
-//     }
-//   }
-// `

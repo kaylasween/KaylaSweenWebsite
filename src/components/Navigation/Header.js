@@ -13,7 +13,7 @@ import "../../styles/layout/_header.scss"
 const Header = ({ siteTitle }) => (
   <nav>
     <Link to="/">
-      <img class="ks-logo" src={logo} alt="Kayla's logo: a mint owl with a backwards K and S that make up the face. Clicking on this redirects to the home page." />
+      <img className="ks-logo" src={logo} alt="Kayla's logo: a mint owl with a backwards K and S that make up the face. Clicking on this redirects to the home page." />
     </Link>
     <ul>
       <NavItem to="/about/">About</NavItem>

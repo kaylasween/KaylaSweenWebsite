@@ -35,19 +35,21 @@ const AboutPage = () => (
     </div>
     <div className="row">
       <img src={KR} alt="Kayla and Richard at a lights festival." />
-      <p>
-        I'm happily married to my husband, <a href="https://richardsween.dev">Richard</a>. Richard is also a software developer. We love to travel, game,
-        and freelance together. Richard shares my passion for teaching other developers and giving users a great experience regardless of ability.
+      <div>
+        <p>
+          I'm happily married to my husband, <a href="https://richardsween.dev">Richard</a>. We love to travel, game, and freelance
+          together. Richard is also a software developer. He shares my passion for teaching other developers and giving users a great experience
+          regardless of ability.
         </p>
+      </div>
     </div>
     <div className="row">
       <img src={CP} alt="Captain and Piper sharing a blanket on the couch." />
-
       <p>
-        Richard and I have two dogs, Captain and Piper. Captain is a 7-year-old, short-haired Jack Russell Terrier. We've been told we should have named
+        Richard and I have two dogs, Captain and Piper. Captain is a 8-year-old, short-haired Jack Russell Terrier. We've been told we should have named
         him Wishbone because of the markings on his face. He loves sunbathing, eating, and napping. Piper is a 2-year-old, wire-haired Jack Russell Terrier.
         She also goes by Pipathan Louise, Piberham, and most often, Pipey. She's our wild child and loves playing with her <a href="https://www.amazon.com/s?k=jw+holee+roller">JW HOL-ee Roller</a>.
-        </p>
+      </p>
     </div>
   </Layout >
 )

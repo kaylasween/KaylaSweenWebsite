@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"></link>
-        <a href="#main" class="visually-hidden">Skip to Main Content</a>
+        <a href="#main" className="visually-hidden">Skip to Main Content</a>
         <Header siteTitle={data.site.siteMetadata.title} />
         <main id="main">{children}</main>
         <Footer />

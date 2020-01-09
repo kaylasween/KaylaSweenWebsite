@@ -32,7 +32,7 @@ const PowerliftingPage = () => (
     <p>
       I usually get asked questions about powerlifting that are more applicable to olympic weightlifting. Powerlifting is a competitve sport that is
       comprised of the squat, bench press, and deadlift. Olympic weightlifting is comprised of the overhead movements: the clean and jerk and the
-      snatch. I usually joke that I'm not athletic or coordinated enough to be a weightlifter!
+      snatch. I usually joke that I'm not athletic or coordinated enough to be a weightlifter but would love to give it a try one day!
         </p>
   </Layout>
 )
