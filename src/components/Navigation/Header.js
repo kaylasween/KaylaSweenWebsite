@@ -17,9 +17,7 @@ const Header = ({ siteTitle }) => (
     </Link>
     <ul>
       <NavItem to="/about/">About</NavItem>
-      <NavItem to="/blog/">Blog</NavItem>
       <NavItem to="/powerlifting/">Powerlifting</NavItem>
-      <NavItem to="/projects/">Projects</NavItem>
       <NavItem to="/talks/">Talks</NavItem>
       <NavItem to="/contact/">Contact</NavItem>
     </ul>
