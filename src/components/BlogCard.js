@@ -1,15 +1,7 @@
 import React from 'react'
 import { Link } from "gatsby"
 
-// import styled from '@emotion/styled'
-
 import "../styles/components/_blog-card.scss"
-
-// export const BlogContent = ({ body }) => (
-//   <p>
-//     {body}
-//   </p>
-// )
 
 const BlogCard = ({ post }) => (
   <div className="blog-card">

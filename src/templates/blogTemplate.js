@@ -5,17 +5,15 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Layout from '../components/Layout'
 
 export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
+  data: { mdx },
 }) {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
   return (
     <Layout>
       <div className="blog-post-container">
         <div className="blog-post">
-          <h1>{frontmatter.title}</h1>
-          <small>{frontmatter.date}</small>
-          <MDXRenderer>{data.markdownRemark.rawMarkdownBody}</MDXRenderer>
+          <h1>{mdx.frontmatter.title}</h1>
+          <small>{mdx.frontmatter.date}</small>
+          <MDXRenderer>{mdx.rawBody}</MDXRenderer>
         </div>
       </div>
     </Layout>
@@ -23,9 +21,9 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      rawMarkdownBody
+  query($id: String) {
+    mdx(id: { eq: $id }) {
+      rawBody
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path

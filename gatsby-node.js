@@ -26,12 +26,14 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Create blog post pages.
   const posts = result.data.allMdx.edges
 
+
+
   // you'll call `createPage` for each result
   posts.forEach(({ node }, index) => {
     createPage({
       // This is the slug you created before
       // (or `node.frontmatter.slug`)
-      path: node.fields.slug,
+      path: node.frontmatter.path,
       // This component will wrap our MDX content
       component: path.resolve(`./src/templates/blogTemplate.js`),
       // You can use the values in this context in
