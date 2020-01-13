@@ -12,6 +12,10 @@
         align-items: flex-start;
         img {
             width: 30%;
+            margin-bottom: 1rem;
+        }
+        :first-child {
+            margin-block-start: 0 !important;
         }
     }
     

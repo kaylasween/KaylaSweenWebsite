@@ -9,16 +9,24 @@ const PowerliftingPage = () => (
     <div className="row">
       <img class="body__img" src={deadlift} alt="Kayla deadlifting 298lbs." />
       <div>
+        <p>
+          I'm a competitive powerlifter and extremely passionate about powerlifting. I intend to continue competing in full power competitions late 2020 after recovering from knee
+          surgery in fall of 2019.
+        </p>
         <h2>Programming</h2>
         <p><em>I'll be offering programming-only coaching options soon!</em></p>
         <h2>Certification</h2>
-        <p>I'm a <a href="https://coaching.usapowerlifting.com/certified-coaches/">USA Powerlifting (USAPL) Certified Club Coach</a>, which means
-        I can coach competitive powerlifters at the local and state level at USAPL events. This also means I understand the mechanics of human movement
-    and the principles and methodology of strength training.</p>
-        <p>I'm very passionate about powerlifting and am always trying to improve my knowledge when it comes to training for myself and coaching
-      other athletes. Next up on my strength training reading list is <a
+        <p>
+          I'm a <a href="https://coaching.usapowerlifting.com/certified-coaches/">USA Powerlifting (USAPL) Certified Club Coach</a>, which means
+          I can coach competitive powerlifters at the local and state level at USAPL events. This also means I understand the mechanics of human movement
+          and the principles and methodology of strength training.
+        </p>
+        <p>
+          I'm very passionate about powerlifting and am always trying to improve my knowledge when it comes to training for myself and coaching
+          other athletes. Next up on my strength training reading list is <a
             href="https://aasgaardco.com/store/books-posters-dvd/books/starting-strength-basic-barbell-training/"><em>Starting Strength:
-        Basic Barbell Training</em> by Mark Rippetoe</a>.</p>
+          Basic Barbell Training</em> by Mark Rippetoe</a>.
+        </p>
       </div>
     </div>
     <h2>Best Lifts</h2>

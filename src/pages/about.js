@@ -41,7 +41,7 @@ const AboutPage = () => (
           regardless of ability.
         </p>
         <p>
-          Richard and I also love to freelance together. Most recently, we have created a timer and clue tool for a local escape room called, <a href="https://enterlocked.com">Enter Locked</a>. If you've played the Murder Motel and
+          Richard and I also enjoy freelancing together. Most recently, we have created a timer and clue tool for a local escape room called, <a href="https://enterlocked.com">Enter Locked</a>. If you've played the Murder Motel and
           received a clue or checked how much time you have left, we did that!
         </p>
         <p>
