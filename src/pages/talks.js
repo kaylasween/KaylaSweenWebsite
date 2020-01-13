@@ -7,8 +7,8 @@ import MagnoliaJS from '../images/MagnoliaJS.jpeg'
 const Talks = () => (
   <Layout>
     <h1>Talks</h1>
-    <div class="flex">
-      <img src={MagnoliaJS} alt="Kayla speaking at MagnoliaJS 2019. Her talk was 'How to Avoid SUX'." style={{ alignSelf: 'flex-start', marginRight: '1rem' }} />
+    <div class="row">
+      <img src={MagnoliaJS} alt="Kayla speaking at MagnoliaJS 2019. Her talk was 'How to Avoid SUX'." />
       <div>
         <h2>Conferences</h2>
         <h3><a href="https://magnoliajs.com">MagnoliaJS</a></h3>
