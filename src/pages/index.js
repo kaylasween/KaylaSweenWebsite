@@ -7,7 +7,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`Kayla`, `Sween`, `Kayla Sween`, `Web Development`, `front end developer`, `UX`, `accessibility`]} />
     <h1>Hi! I'm Kayla. I am a front-end developer, powerlifter, and dog mom.</h1>
-    <p>I'm currently developing my new website. You can visit <a href="https://old.kaylasween.com/">my old website</a> if you want to see some of my older projects and writing.
+    <p>This site is currently a work-in-progress, but feel free to poke around! You can visit <a href="https://old.kaylasween.com/">my old website</a> if you want to see some of my older projects and writing.
       For newer projects, visit <a href="https://github.com/kaylasween">my GitHub</a> to see what I'm working on now.
     </p>
   </Layout>

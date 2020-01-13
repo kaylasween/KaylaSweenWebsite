@@ -17,8 +17,8 @@ const AboutPage = () => (
           Hi! I'm Kayla. I am a front-end developer who is passionate about inclusive design. I advocate for user experience, especially accessibility.
         </p>
         <p>
-          I enjoy teaching others about accessibility through various speaking engagements, which can be found in the <Link to="/talks">talks section of
-          my site</Link>, and other front-end stuff. I also enjoy learning about new front-end technologies that I don't necessarily get to use in my
+          I enjoy teaching others about accessibility and other front-end stuff through various speaking engagements, which can be found in the <Link to="/talks">talks section of
+          my site</Link>, and blogging on <a href="https://dev.to/kaylasween">The Dev Community</a>. I also enjoy learning about new front-end technologies that I don't necessarily get to use in my
           day-to-day work. Currently, I am learning <a href="https://reactjs.org">React</a> and <a href="https://www.gatsbyjs.org">Gatsby</a>.
         </p>
         <p>
@@ -37,9 +37,16 @@ const AboutPage = () => (
       <img src={KR} alt="Kayla and Richard at a lights festival." />
       <div>
         <p>
-          I'm happily married to my husband, <a href="https://richardsween.dev">Richard</a>. We love to travel, game, and freelance
-          together. Richard is also a software developer. He shares my passion for teaching other developers and giving users a great experience
+          I'm happily married to my husband, <a href="https://richardsween.dev">Richard</a>. Richard is also a software developer. He shares my passion for teaching other developers and giving users a great experience
           regardless of ability.
+        </p>
+        <p>
+          Richard and I also love to freelance together. Most recently, we have created a timer and clue tool for a local escape room called, <a href="https://enterlocked.com">Enter Locked</a>. If you've played the Murder Motel and
+          received a clue or checked how much time you have left, we did that!
+        </p>
+        <p>
+          We love to travel. Richard travels for work, so I tag along when possible. We typically also attend conferences together, especially when I'm speaking. If you've ever
+          heard me speak at a conference, Richard has probably heard that talk dozens of times before! Thankfully, he's still in the crowd of those talks for support.
         </p>
       </div>
     </div>
