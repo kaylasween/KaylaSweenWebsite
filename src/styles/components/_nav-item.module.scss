@@ -1,9 +1,11 @@
 .active:before {
-  content: '{  '
+  content: '{';
+  padding-right: 1rem;
 }
 
 .active:after {
-  content: '  }'
+  content: '}';
+  padding-left: 1rem;
 }
 
 .navLi {
@@ -16,4 +18,17 @@
 }
 .navLi:hover {
   border-bottom: 3px solid #28587B;
+}
+
+@media(max-width: 500px){
+  .navLi {
+    a { 
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    border-bottom: none;
+  }
+  .navLi:hover {
+    border-bottom: none;
+  }
 }

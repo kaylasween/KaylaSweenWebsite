@@ -13,3 +13,14 @@ nav {
     margin: 1rem;
   }
 }
+
+@media(max-width: 500px){
+  nav {
+    ul {
+      display: block;
+    }
+    img.ks-logo {
+      margin-bottom: 0;
+    }
+  } 
+}
