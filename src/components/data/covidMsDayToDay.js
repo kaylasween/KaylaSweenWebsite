@@ -15,12 +15,13 @@ const covidMsDayToDay = ({ data /* see data tab */ }) => {
         data={data}
         margin={{ top: 50, right: 60, bottom: 80, left: 60 }}
         xScale={{
-          type: "point",
+          type: "time",
           format: "%Y-%m-%d",
-          precision: "day"
+          precision: "hour"
         }}
+        xFormat="time:%Y-%m-%d"
         yScale={{ type: 'linear', min: 'auto', max: 'auto', stacked: true, reverse: false }}
-        curve="catmullRom"
+        curve="basis"
         axisTop={null}
         axisRight={null}
         axisBottom={{
@@ -28,7 +29,8 @@ const covidMsDayToDay = ({ data /* see data tab */ }) => {
           tickSize: 5,
           tickPadding: 5,
           tickRotation: 50,
-          tickValues: data[0].data.length / 2,
+          format: "%b %d",
+          tickValues: "every 7 days",
           legend: 'Dates (from first known case in Mississippi)',
           legendOffset: 75,
           legendPosition: 'middle'
