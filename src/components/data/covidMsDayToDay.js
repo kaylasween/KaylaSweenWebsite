@@ -1,21 +1,26 @@
 import React from 'react'
 import { ResponsiveLine } from '@nivo/line'
 
+import '../../styles/components/_covid.scss'
+
 // make sure parent container have a defined height when using
 // responsive component, otherwise height will be 0 and
 // no chart will be rendered.
 // website examples showcase many properties,
 // you'll often use just a few of them.
 const covidMsDayToDay = ({ data /* see data tab */ }) => {
-  console.log(data)
   return (
-    <div style={{ height: '60vh' }}>
+    <div className="covid-chart">
       <ResponsiveLine
         data={data}
-        margin={{ top: 50, right: 110, bottom: 80, left: 60 }}
-        xScale={{ type: 'point' }}
+        margin={{ top: 50, right: 60, bottom: 80, left: 60 }}
+        xScale={{
+          type: "point",
+          format: "%Y-%m-%d",
+          precision: "day"
+        }}
         yScale={{ type: 'linear', min: 'auto', max: 'auto', stacked: true, reverse: false }}
-        curve="natural"
+        curve="catmullRom"
         axisTop={null}
         axisRight={null}
         axisBottom={{
@@ -23,6 +28,7 @@ const covidMsDayToDay = ({ data /* see data tab */ }) => {
           tickSize: 5,
           tickPadding: 5,
           tickRotation: 50,
+          tickValues: data[0].data.length / 2,
           legend: 'Dates (from first known case in Mississippi)',
           legendOffset: 75,
           legendPosition: 'middle'
@@ -37,7 +43,7 @@ const covidMsDayToDay = ({ data /* see data tab */ }) => {
           legendPosition: 'middle'
         }}
         colors={{ scheme: 'paired' }}
-        pointSize={10}
+        pointSize={5}
         pointColor={{ from: 'color', modifiers: [] }}
         pointBorderWidth={2}
         pointBorderColor={{ from: 'serieColor' }}

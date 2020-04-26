@@ -1,4 +1,12 @@
-body {
+@media(prefers-color-scheme: dark) {
+  body {
     background-color: #333333;
     color: #ffffff;
+    a {
+        color: #86D6C2;
+        .footer-logo {
+            fill: #86D6C2;
+        }
+    }
+  }
 }

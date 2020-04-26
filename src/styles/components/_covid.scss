@@ -1,0 +1,30 @@
+.covid-chart {
+  height: 60vh;
+  width: 60vw;
+  margin-bottom: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .covid-chart {
+    width: 90vw;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .covid-chart {
+    div {
+      div {
+        div {
+          div[style] {
+            color: #333333 !important;
+          }
+        }
+      }
+    }
+    text {
+      fill: white !important;
+    }
+  }
+}

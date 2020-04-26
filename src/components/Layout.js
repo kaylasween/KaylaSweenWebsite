@@ -13,6 +13,7 @@ import Header from './Navigation/Header'
 import Footer from './Footer'
 import "../styles/layout/_layout.scss"
 import "../styles/layout/_main.scss"
+import "../styles/themes/_dark-mode.scss"
 import "../styles/_a11y.scss"
 
 const Layout = ({ children }) => (
