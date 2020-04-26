@@ -42,6 +42,8 @@ const covidMsDayToDay = ({ data /* see data tab */ }) => {
           legendOffset: -40,
           legendPosition: 'middle'
         }}
+        enableGridX={false}
+        enableGridY={false}
         colors={{ scheme: 'paired' }}
         pointSize={5}
         pointColor={{ from: 'color', modifiers: [] }}
