@@ -317,4 +317,13 @@ export const dataset = [{
   ]
 }]
 
+export let movingAvg = [{
+  id: "movingAvg",
+  color: "#ffffff",
+  data: []
+}]
 
+for (let counter = 0; counter < dataset[0].data.length - 7; counter++) {
+  let avg = (dataset[0].data[counter].y + dataset[0].data[counter + 1].y + dataset[0].data[counter + 2].y + dataset[0].data[counter + 3].y + dataset[0].data[counter + 4].y + dataset[0].data[counter + 5].y + dataset[0].data[counter + 6].y) / 7
+  movingAvg[0].data.push({ x: dataset[0].data[counter].x, y: avg })
+}

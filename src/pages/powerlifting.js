@@ -7,7 +7,7 @@ const PowerliftingPage = () => (
   <Layout>
     <h1>Powerlifting</h1>
     <div className="row">
-      <img class="body__img" src={deadlift} alt="Kayla deadlifting 298lbs." />
+      <img className="body__img" src={deadlift} alt="Kayla deadlifting 298lbs." />
       <div>
         <p>
           I'm a competitive powerlifter and extremely passionate about powerlifting. I intend to continue competing in full power competitions late 2020 after recovering from knee
