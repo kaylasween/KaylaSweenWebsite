@@ -15,9 +15,9 @@
     padding: 1rem;
     line-height: 3rem;
   }
-}
-.navLi:hover {
-  border-bottom: 3px solid #28587B;
+  &:hover {
+    border-bottom: 3px solid #28587B;
+  }
 }
 
 @media(max-width: 500px){
@@ -30,5 +30,13 @@
   }
   .navLi:hover {
     border-bottom: none;
+  }
+}
+
+@media(prefers-color-scheme: dark) {
+  .navLi{
+    &:hover {
+      border-bottom: 3px solid #86D6C2;
+    }
   }
 }
