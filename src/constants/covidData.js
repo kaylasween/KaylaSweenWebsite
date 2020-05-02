@@ -6,127 +6,127 @@ export const dataset = [{
       x: '2020-03-11',
       // totalCases: 1,
       y: 1,
-      // testsRun: 13
+      // testsRun: 20
     },
     {
       x: '2020-03-12',
       // totalCases: 6,
       y: 5,
-      // testsRun: null
+      // testsRun: 20
     },
     {
       x: '2020-03-13',
       // totalCases: 6,
       y: 0,
-      // testsRun: null
+      // testsRun: 20
     },
     {
       x: '2020-03-14',
       // totalCases: 10,
       y: 4,
-      // testsRun: null
+      // testsRun: 20
     },
     {
       x: '2020-03-15',
       // totalCases: 12,
       y: 2,
-      // testsRun: null
+      // testsRun: 20
     },
     {
       x: '2020-03-16',
       // totalCases: 21,
       y: 9,
-      // testsRun: null
+      // testsRun: 20
     },
     {
       x: '2020-03-17',
       // totalCases: 34,
       y: 13,
-      // testsRun: null
+      // testsRun: 389
     },
     {
       x: '2020-03-18',
       // totalCases: 50,
       y: 16,
-      // testsRun: null
+      // testsRun: 513
     },
     {
       x: '2020-03-19',
       // totalCases: 80,
       y: 30,
-      // testsRun: null
+      // testsRun: 602
     },
     {
       x: '2020-03-20',
       // totalCases: 140,
       y: 60,
-      // testsRun: null
+      // testsRun: 602
     },
     {
       x: '2020-03-21',
       // totalCases: 207,
       y: 67,
-      // testsRun: null
+      // testsRun: 602
     },
     {
       x: '2020-03-22',
       // totalCases: 249,
       y: 42,
-      // testsRun: null
+      // testsRun: 602
     },
     {
       x: '2020-03-23',
       // totalCases: 320,
       y: 71,
-      // testsRun: null
+      // testsRun: 602
     },
     {
       x: '2020-03-24',
       // totalCases: 320,
       y: 0,
-      // testsRun: null
+      // testsRun: 602
     },
     {
       x: '2020-03-25',
       // totalCases: 485,
       y: 165,
-      // testsRun: null
+      // testsRun: 602
     },
     {
       x: '2020-03-26',
       // totalCases: 579,
       y: 94,
-      // testsRun: null
+      // testsRun: 602
     },
     {
       x: '2020-03-27',
       // totalCases: 663,
       y: 84,
-      // testsRun: null
+      // testsRun: 602
     },
     {
       x: '2020-03-28',
       // totalCases: 758,
       y: 95,
-      // testsRun: null
+      // testsRun: 602
     },
     {
       x: '2020-03-29',
       // totalCases: 847,
       y: 89,
-      // testsRun: null
+      // testsRun: 602
     },
     {
       x: '2020-03-30',
       // totalCases: 937,
       y: 90,
-      // testsRun: null
+      // testsRun: 602
     },
     {
       x: '2020-03-31',
       // totalCases: 1073,
       y: 136,
-      // testsRun: null
+      // testsRun: 602
     },
     {
       x: '2020-04-01',
@@ -156,43 +156,43 @@ export const dataset = [{
       x: '2020-04-05',
       // totalCases: 1738,
       y: 100,
-      // testsRun: null
+      // testsRun: 20370
     },
     {
       x: '2020-04-06',
       // totalCases: 1915,
       y: 177,
-      // testsRun: null
+      // testsRun: 20370
     },
     {
       x: '2020-04-07',
       // totalCases: 2003,
       y: 88,
-      // testsRun: null
+      // testsRun: 20370
     },
     {
       x: '2020-04-08',
       // totalCases: 2260,
       y: 257,
-      // testsRun: null
+      // testsRun: 20370
     },
     {
       x: '2020-04-09',
       // totalCases: 2469,
       y: 209,
-      // testsRun: null
+      // testsRun: 20370
     },
     {
       x: '2020-04-10',
       // totalCases: 2642,
       y: 173,
-      // testsRun: null
+      // testsRun: 20370
     },
     {
       x: '2020-04-11',
       // totalCases: 2781,
       y: 139,
-      // testsRun: null
+      // testsRun: 20370
     },
     {
       x: '2020-04-12',
@@ -246,13 +246,13 @@ export const dataset = [{
       x: '2020-04-20',
       // totalCases: 4716,
       y: 204,
-      // testsRun: 37733
+      // testsRun: 37733 
     },
     {
       x: '2020-04-21',
       // totalCases: 4894,
       y: 178,
-      // testsRun: 37733
+      // testsRun: 37733 // note testing numbers prior to this are not always accurate.
     },
     {
       x: '2020-04-22',
@@ -289,6 +289,30 @@ export const dataset = [{
       // totalCases: 6342,
       y: 248,
       // testsRun: 64412
+    },
+    {
+      x: '2020-04-28',
+      // totalCases: 6569,
+      y: 227,
+      // testsRun: 66094
+    },
+    {
+      x: '2020-04-29',
+      // totalCases: 6569,
+      y: 246,
+      // testsRun: 69000
+    },
+    {
+      x: '2020-04-30',
+      // totalCases: 6569,
+      y: 397,
+      // testsRun: 71548
+    },
+    {
+      x: '2020-05-01',
+      // totalCases: 6569,
+      y: 229,
+      // testsRun: 74475
     },
   ]
 }]
