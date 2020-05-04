@@ -304,15 +304,27 @@ export const dataset = [{
     },
     {
       x: '2020-04-30',
-      // totalCases: 6569,
+      // totalCases: 7212,
       y: 397,
       // testsRun: 71548
     },
     {
       x: '2020-05-01',
-      // totalCases: 6569,
+      // totalCases: 7441,
       y: 229,
       // testsRun: 74475
+    },
+    {
+      x: '2020-05-02',
+      // totalCases: 7550,
+      y: 109,
+      // testsRun: 77593
+    },
+    {
+      x: '2020-05-03',
+      // totalCases: 7877,
+      y: 327,
+      // testsRun: 79677
     },
   ]
 }]
