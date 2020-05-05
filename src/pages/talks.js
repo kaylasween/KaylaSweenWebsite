@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 import Layout from '../components/Layout'
 
@@ -6,6 +7,9 @@ import MagnoliaJS from '../images/MagnoliaJS.jpeg'
 
 const Talks = () => (
   <Layout>
+    <Helmet>
+      <title>Talks | Kayla Sween</title>
+    </Helmet>
     <h1>Talks</h1>
     <div class="row">
       <img src={MagnoliaJS} alt="Kayla speaking at MagnoliaJS 2019. Her talk was 'How to Avoid SUX'." />

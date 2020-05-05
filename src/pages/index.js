@@ -1,11 +1,15 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
+    <Helmet>
+      <title>Home | Kayla Sween</title>
+    </Helmet>
     <SEO title="Home" keywords={[`Kayla`, `Sween`, `Kayla Sween`, `Web Development`, `front end developer`, `UX`, `accessibility`]} />
     <h1>Hi! I'm Kayla. I am a front-end developer, powerlifter, and dog mom.</h1>
     <p>

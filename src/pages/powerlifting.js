@@ -1,10 +1,15 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
+
 import Layout from '../components/Layout'
 
 import deadlift from '../images/IMG_7742.jpeg'
 
 const PowerliftingPage = () => (
   <Layout>
+    <Helmet>
+      <title>Powerlifting | Kayla Sween</title>
+    </Helmet>
     <h1>Powerlifting</h1>
     <div className="row">
       <img className="body__img" src={deadlift} alt="Kayla deadlifting 298lbs." />

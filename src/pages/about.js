@@ -1,7 +1,8 @@
 import React from 'react'
-import Layout from '../components/Layout'
-
 import { Link } from 'gatsby'
+import { Helmet } from 'react-helmet'
+
+import Layout from '../components/Layout'
 
 import CP from '../images/CaptainPiper.jpeg'
 import Kayla from '../images/Kayla.jpeg'
@@ -9,6 +10,9 @@ import KR from '../images/KaylaRichard.jpeg'
 
 const AboutPage = () => (
   <Layout>
+    <Helmet>
+      <title>About | Kayla Sween</title>
+    </Helmet>
     <h1>About</h1>
     <div className="row">
       <img src={Kayla} alt="Kayla" />

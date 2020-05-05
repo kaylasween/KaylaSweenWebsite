@@ -1,8 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Layout from '../components/Layout'
 
 const UsesPage = () => (
     <Layout>
+        <Helmet>
+            <title>Uses | Kayla Sween</title>
+        </Helmet>
         <h1>Things I use</h1>
         <p>Hardware</p>
         <ul>
