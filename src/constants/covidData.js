@@ -332,6 +332,24 @@ export const dataset = [{
       y: 330,
       // testsRun: 80308
     },
+    {
+      x: '2020-05-05',
+      // totalCases: 8424,
+      y: 217,
+      // testsRun: 80308
+    },
+    {
+      x: '2020-05-06',
+      // totalCases: 8686,
+      y: 262,
+      // testsRun: 80308
+    },
+    {
+      x: '2020-05-07',
+      // totalCases: 9090,
+      y: 404,
+      // testsRun: 80308
+    },
   ]
 }]
 
