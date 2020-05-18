@@ -141,7 +141,7 @@ export const dataset = [{
       // testsRun: null
     },
     {
-      x: '2020-04-03',
+      x: '2020-04-03', //Shelter in place started at 5:00PM
       // totalCases: 1455,
       y: 97,
       // testsRun: null
@@ -391,6 +391,18 @@ export const dataset = [{
       // totalCases: 10801,
       y: 318,
       // testsRun: 106823
+    },
+    {
+      x: '2020-05-15',
+      // totalCases: 11123,
+      y: 322,
+      // testsRun: 108476
+    },
+    {
+      x: '2020-05-16',
+      // totalCases: 11296,
+      y: 173,
+      // testsRun: 113126
     },
   ]
 }]
