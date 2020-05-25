@@ -422,6 +422,30 @@ export const dataset = [{
       y: 263,
       // testsRun: 120680
     },
+    {
+      x: '2020-05-20',
+      // totalCases: 12222,
+      y: 255,
+      // testsRun: 125970
+    },
+    {
+      x: '2020-05-21',
+      // totalCases: 12624,
+      y: 402,
+      // testsRun: 137973
+    },
+    {
+      x: '2020-05-22',
+      // totalCases: 13005,
+      y: 381,
+      // testsRun: 134220 // MSDH started separating antibody tests from PCR
+    },
+    {
+      x: '2020-05-23',
+      // totalCases: 13252,
+      y: 247,
+      // testsRun: 137902 // MSDH started separating antibody tests from PCR
+    },
   ]
 }]
 
