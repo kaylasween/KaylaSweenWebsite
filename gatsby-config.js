@@ -28,6 +28,13 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-web-monetization`,
+      options: {
+        paymentPointer: `$ilp.uphold.com/p4phbPxWNMB7`,
+        excludedPaths: ['src/pages/index.js', 'src/pages/talks.js', 'src/pages/powerlifting.js', 'src/pages/contact.js', 'src/pages/about.js', 'src/pages/404.js'] // Optional
+      }
+    },
     // {
     //   resolve: "gatsby-source-dev",
     //   options: {
