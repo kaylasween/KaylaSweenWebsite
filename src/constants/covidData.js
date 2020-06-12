@@ -538,7 +538,7 @@ export const dataset = [{
     },
     {
       x: '2020-06-08',
-      // totalCases: 17768,
+      // totalCases: 18109,
       y: 341,
       // testsRun: 208089 
     },
@@ -546,6 +546,18 @@ export const dataset = [{
       x: '2020-06-09',
       // totalCases: 18483,
       y: 374,
+      // testsRun: 213753 
+    },
+    {
+      x: '2020-06-10',
+      // totalCases: 18787,
+      y: 304,
+      // testsRun: 213753 
+    },
+    {
+      x: '2020-06-11',
+      // totalCases: 19091,
+      y: 304,
       // testsRun: 213753 
     },
   ]
