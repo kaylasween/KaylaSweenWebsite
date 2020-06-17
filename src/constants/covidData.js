@@ -584,6 +584,12 @@ export const dataset = [{
       y: 353,
       // testsRun: 230503 
     },
+    {
+      x: '2020-06-16',
+      // totalCases: 20641,
+      y: 489,
+      // testsRun: 234036 
+    },
   ]
 }]
 
