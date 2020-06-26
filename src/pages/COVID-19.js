@@ -4,8 +4,9 @@ import { Helmet } from 'react-helmet'
 import Layout from '../components/Layout'
 import CovidMsDayToDay from '../components/data/covidMsDayToDay'
 import CovidMsMovingAvg from '../components/data/covidMsMovingAvg'
+import CovidMsPercentPositive from '../components/data/covidMsPercentPositive'
 
-import { dataset, movingAvg } from '../constants/covidData'
+import { covidCasesPerDay, movingAvg, percentPositive } from '../constants/covidData'
 
 const covid19 = (props) => (
   <Layout>
@@ -15,8 +16,11 @@ const covid19 = (props) => (
     <h1>COVID-19 Data for Mississippi</h1>
     <h2 className="pad-top">New Cases of COVID-19 Per Day (Moving Average)</h2>
     <CovidMsMovingAvg data={movingAvg} />
+    <h2>Percent Positive</h2>
+    <CovidMsPercentPositive data={percentPositive} />
+    <small>This is the percentage of positive cases day-to-day. This takes the total number of cases each day and divides it by the number of tests (swabs, not antibody tests) run.</small>
     <h2>New Cases of COVID-19 Per Day</h2>
-    <CovidMsDayToDay data={dataset} />
+    <CovidMsDayToDay data={covidCasesPerDay} />
     <small>This data is collected from <a href="https://msdh.ms.gov/msdhsite/_static/14,0,420.html">the Mississippi Department of Health's COVID-19 informational page</a>.</small>
     <p><small>Note that a sudden downturn in new cases per day does not indicate a downward trend.</small></p>
     <p><small>Data from June 10, 2020 was not available until June 12, 2020.</small></p>
