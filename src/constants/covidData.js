@@ -660,8 +660,6 @@ for (let counter = 6; counter < dataset.length; counter++) {
   movingAvg[0].data.push({ x: dataset[counter].date, y: avg })
 }
 
-console.log(movingAvg)
-
 let dailyCases = dataset.map(point => {
   point = {
     x: point.date,
@@ -669,8 +667,6 @@ let dailyCases = dataset.map(point => {
   }
   return point
 })
-
-console.log(dailyCases)
 
 export let covidCasesPerDay = [{
   id: "covidMsDayToDay",
@@ -687,8 +683,6 @@ let positivityPercentagePerDay = filterDatesBeforeApril28.map(point => {
   }
   return point
 })
-
-console.log(positivityPercentagePerDay)
 
 export let percentPositive = [{
   id: "percentPositive",
