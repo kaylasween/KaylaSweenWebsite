@@ -689,35 +689,35 @@ const dataset = [
     date: '2020-06-17',
     totalCases: 21022,
     newCases: 381,
-    testsRun: 234036,
+    testsRun: 237849,
     newDeaths: 5
   },
   {
     date: '2020-06-18',
     totalCases: 21339,
     newCases: 317,
-    testsRun: 234036,
+    testsRun: 241661,
     newDeaths: 10
   },
   {
     date: '2020-06-19',
     totalCases: 21655,
     newCases: 316,
-    testsRun: 234036,
+    testsRun: 245473,
     newDeaths: 10
   },
   {
     date: '2020-06-20',
     totalCases: 21971,
     newCases: 316,
-    testsRun: 234036,
+    testsRun: 249285,
     newDeaths: 10
   },
   {
     date: '2020-06-21',
     totalCases: 22287,
     newCases: 316,
-    testsRun: 234036,
+    testsRun: 253097,
     newDeaths: 10
   },
   {
@@ -762,6 +762,13 @@ const dataset = [
     testsRun: 280020,
     newDeaths: 4
   },
+  {
+    date: '2020-06-28',
+    totalCases: 26567,
+    newCases: 675,
+    testsRun: 283355,
+    newDeaths: 20
+  },
 ]
 
 export let movingAvg = [{
@@ -773,6 +780,12 @@ export let movingAvg = [{
 for (let counter = 6; counter < dataset.length; counter++) {
   let avg = (dataset[counter].newCases + dataset[counter - 1].newCases + dataset[counter - 2].newCases + dataset[counter - 3].newCases + dataset[counter - 4].newCases + dataset[counter - 5].newCases + dataset[counter - 6].newCases) / 7
   movingAvg[0].data.push({ x: dataset[counter].date, y: avg })
+}
+
+let totalDeaths = 0
+
+for (let counter = 0; counter < dataset.length; counter++) {
+  totalDeaths += dataset[counter].newDeaths
 }
 
 let dailyCases = dataset.map(point => {
@@ -804,3 +817,5 @@ export let percentPositive = [{
   color: "#86D6C2",
   data: positivityPercentagePerDay
 }]
+
+console.log(percentPositive)
