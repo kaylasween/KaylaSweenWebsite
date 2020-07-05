@@ -17,7 +17,7 @@ const covid19 = (props) => {
       <h1>COVID-19 Data for Mississippi</h1>
       <h2 className="pad-top">New Cases of COVID-19 Per Day (Moving Average)</h2>
       <CovidMsMovingAvg data={movingAvg} />
-      <h2>Percent Positive</h2>
+      <h2>Positivity Rate</h2>
       <p>Positivity rate for {percentPositive[0].data[percentPositive[0].data.length - 1].x} is: {percentPositive[0].data[percentPositive[0].data.length - 1].y.toFixed(2)}%</p>
       <CovidMsPercentPositive data={percentPositive} />
       <small>This is the percentage of positive cases day-to-day. This takes the total number of cases each day and divides it by the number of tests (swabs, not antibody tests) run.</small>
