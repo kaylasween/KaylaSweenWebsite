@@ -896,7 +896,7 @@ export let movingAvg = [{
   data: []
 }]
 
-for (let counter = 6; counter < dataset.length; counter++) {
+for (let counter = dataset.length - 30; counter < dataset.length; counter++) {
   let avg = (dataset[counter].newCases + dataset[counter - 1].newCases + dataset[counter - 2].newCases + dataset[counter - 3].newCases + dataset[counter - 4].newCases + dataset[counter - 5].newCases + dataset[counter - 6].newCases) / 7
   movingAvg[0].data.push({ x: dataset[counter].date, y: avg })
 }
@@ -907,7 +907,7 @@ for (let counter = 0; counter < dataset.length; counter++) {
   totalDeaths += dataset[counter].newDeaths
 }
 
-let dailyCases = dataset.map(point => {
+let dailyCases = dataset.slice(dataset.length - 30, dataset.length).map(point => {
   point = {
     x: point.date,
     y: point.newCases
@@ -915,13 +915,16 @@ let dailyCases = dataset.map(point => {
   return point
 })
 
+// dailyCases = dailyCases.slice[dailyCases.length - 30, dailyCases.length]
+console.log(dailyCases)
+
 export let covidCasesPerDay = [{
   id: "covidMsDayToDay",
   color: "#86D6C2",
   data: dailyCases
 }]
 
-let filterDatesBeforeApril28 = dataset.filter(point => new Date(point.date) > new Date('2020-04-27'))
+let filterDatesBeforeApril28 = dataset.slice(dataset.length - 30, dataset.length)
 
 let positivityPercentagePerDay = filterDatesBeforeApril28.map(point => {
   point = {

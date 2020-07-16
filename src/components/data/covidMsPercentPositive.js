@@ -32,7 +32,7 @@ const covidMsPercentPositive = ({ data /* see data tab */ }) => {
           tickRotation: 50,
           format: "%b %d",
           tickValues: "every 7 days",
-          legend: 'Dates (from start of reliable reporting of tests run in Mississippi)',
+          legend: 'Dates (last 30 days)',
           legendOffset: 75,
           legendPosition: 'middle'
         }}

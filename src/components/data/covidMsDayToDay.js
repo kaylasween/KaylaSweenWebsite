@@ -21,7 +21,7 @@ const covidMsDayToDay = ({ data /* see data tab */ }) => {
           useUTC: false
         }}
         xFormat="time:%Y-%m-%d"
-        yScale={{ type: 'linear', min: 'auto', max: 'auto', stacked: true, reverse: false }}
+        yScale={{ type: 'linear', min: 0, max: 'auto', stacked: true, reverse: false }}
         curve="basis"
         axisTop={null}
         axisRight={null}
@@ -32,7 +32,7 @@ const covidMsDayToDay = ({ data /* see data tab */ }) => {
           tickRotation: 50,
           format: "%b %d",
           tickValues: "every 7 days",
-          legend: 'Dates (from first known case in Mississippi)',
+          legend: 'Dates (last 30 days)',
           legendOffset: 75,
           legendPosition: 'middle'
         }}
