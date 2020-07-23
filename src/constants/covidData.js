@@ -931,7 +931,7 @@ const dataset = [
     newDeaths: 34
   },
   {
-    date: '2020-07-21',
+    date: '2020-07-22',
     totalCases: 48053,
     newCases: 982,
     testsRun: 402474, //didn't report tests today.
