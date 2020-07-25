@@ -27,7 +27,7 @@ const covidMsMovingAvg = ({ data /* see data tab */ }) => {
           tickPadding: 5,
           tickRotation: 50,
           format: "%b %d",
-          tickValues: "every 7 days",
+          tickValues: "every 2 days",
           legend: 'Dates (last 30 days)',
           legendOffset: 75,
           legendPosition: 'middle'
