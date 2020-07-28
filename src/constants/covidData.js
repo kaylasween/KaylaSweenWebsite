@@ -955,15 +955,22 @@ const dataset = [
     date: '2020-07-25',
     totalCases: 52304,
     newCases: 1207,
-    testsRun: 421233, //did not update today.
+    testsRun: 424079, //did not update today.
     newDeaths: 15
   },
   {
     date: '2020-07-26',
     totalCases: 52957,
     newCases: 653,
-    testsRun: 426926, //did not update today.
+    testsRun: 426926,
     newDeaths: 6
+  },
+  {
+    date: '2020-07-27',
+    totalCases: 54299,
+    newCases: 1342,
+    testsRun: 432422,
+    newDeaths: 42
   },
 ]
 
