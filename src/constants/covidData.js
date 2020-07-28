@@ -958,6 +958,13 @@ const dataset = [
     testsRun: 421233, //did not update today.
     newDeaths: 15
   },
+  {
+    date: '2020-07-26',
+    totalCases: 52957,
+    newCases: 653,
+    testsRun: 426926, //did not update today.
+    newDeaths: 6
+  },
 ]
 
 export let movingAvg = [{
