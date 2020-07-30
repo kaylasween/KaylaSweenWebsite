@@ -973,14 +973,14 @@ const dataset = [
     newDeaths: 42
   },
   {
-    date: '2020-07-27',
+    date: '2020-07-28',
     totalCases: 55804,
     newCases: 1505,
     testsRun: 442546,
     newDeaths: 20
   },
   {
-    date: '2020-07-27',
+    date: '2020-07-29',
     totalCases: 57579,
     newCases: 1775,
     testsRun: 449072,
