@@ -1004,29 +1004,36 @@ const dataset = [
     date: '2020-08-01',
     totalCases: 60553,
     newCases: 672,
-    testsRun: 460594, //none today
+    testsRun: 464764, //none today averaging out on 8/6
     newDeaths: 10
   },
   {
     date: '2020-08-02',
     totalCases: 61125,
     newCases: 572,
-    testsRun: 460594, //none today
+    testsRun: 468934, //none today averaging on 8/6
     newDeaths: 8
   },
   {
     date: '2020-08-03',
     totalCases: 62199,
     newCases: 1074,
-    testsRun: 460594, //none today
+    testsRun: 473104, //none today averaging on 8/6
     newDeaths: 42
   },
   {
     date: '2020-08-04',
     totalCases: 63444,
     newCases: 1245,
-    testsRun: 460594, // none today
+    testsRun: 477274, // none today averaging on 8/6
     newDeaths: 51
+  },
+  {
+    date: '2020-08-05',
+    totalCases: 64400,
+    newCases: 956,
+    testsRun: 481443,
+    newDeaths: 21
   },
 ]
 

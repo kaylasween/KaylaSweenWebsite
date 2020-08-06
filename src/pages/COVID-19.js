@@ -17,11 +17,11 @@ const covid19 = (props) => {
       <h1>COVID-19 Data for Mississippi</h1>
       <h2 className="pad-top">New Cases of COVID-19 Per Day (Moving Average)</h2>
       <CovidMsMovingAvg data={movingAvg} />
-      {/* <h2>Positivity Rate</h2>
+      <h2>Positivity Rate</h2>
       <p>Positivity rate for {percentPositive[0].data[percentPositive[0].data.length - 1].x} is: {percentPositive[0].data[percentPositive[0].data.length - 1].y.toFixed(2)}%</p>
       <CovidMsPercentPositive data={percentPositive} />
       <small>This is the percentage of positive cases day-to-day. This takes the total number of cases each day and divides it by the number of tests (swabs, not antibody tests) run.</small>
-      <p><small>According to <a href="https://coronavirus.jhu.edu/testing/testing-positivity">Johns Hopkins Coronavirus Resource Center</a>, the recommended positivity rate (percentage of positive cases out of total tests ran) is 5% or below.</small></p> */}
+      <p><small>According to <a href="https://coronavirus.jhu.edu/testing/testing-positivity">Johns Hopkins Coronavirus Resource Center</a>, the recommended positivity rate (percentage of positive cases out of total tests ran) is 5% or below.</small></p>
       <h2>New Cases of COVID-19 Per Day</h2>
       <CovidMsDayToDay data={covidCasesPerDay} />
       <small>This data is collected from <a href="https://msdh.ms.gov/msdhsite/_static/14,0,420.html">the Mississippi Department of Health's COVID-19 informational page</a>. This website (<a href="https://kaylasween.com">kaylasween.com</a>) and I (Kayla Sween) are in no way affiliated with the Mississippi Department of Health. In no way is this data intended to replace what the Mississippi Department of Health's or the CDC's recommendations. Please follow your local government and public health officials guidance for information on what you should do for your health and the health of others during this pandemic.</small>
