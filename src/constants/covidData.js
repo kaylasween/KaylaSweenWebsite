@@ -1284,7 +1284,7 @@ const dataset = [
     date: '2020-09-10',
     totalCases: 89175,
     newCases: 853,
-    testsRun: 492386, // none today
+    testsRun: 613122,
     newDeaths: 15
   },
 ]
