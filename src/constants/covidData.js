@@ -1063,6 +1063,230 @@ const dataset = [
     testsRun: 492386, // none today
     newDeaths: 16
   },
+  {
+    date: '2020-08-10',
+    totalCases: 68293,
+    newCases: 644,
+    testsRun: 492386, // stopped checking daily here
+    newDeaths: 33
+  },
+  {
+    date: '2020-08-11',
+    totalCases: 69374,
+    newCases: 1081,
+    testsRun: 492386, // none today
+    newDeaths: 45
+  },
+  {
+    date: '2020-08-12',
+    totalCases: 69986,
+    newCases: 612,
+    testsRun: 492386, // none today
+    newDeaths: 22
+  },
+  {
+    date: '2020-08-13',
+    totalCases: 70930,
+    newCases: 825,
+    testsRun: 492386, // none today
+    newDeaths: 32
+  },
+  {
+    date: '2020-08-14',
+    totalCases: 71755,
+    newCases: 644,
+    testsRun: 492386, // none today
+    newDeaths: 37
+  },
+  {
+    date: '2020-08-15',
+    totalCases: 72136,
+    newCases: 381,
+    testsRun: 492386, // none today
+    newDeaths: 4
+  },
+  {
+    date: '2020-08-16',
+    totalCases: 72412,
+    newCases: 276,
+    testsRun: 492386, // none today
+    newDeaths: 11
+  },
+  {
+    date: '2020-08-17',
+    totalCases: 73207,
+    newCases: 795,
+    testsRun: 492386, // none today
+    newDeaths: 34
+  },
+  {
+    date: '2020-08-18',
+    totalCases: 74555,
+    newCases: 1348,
+    testsRun: 492386, // none today
+    newDeaths: 34
+  },
+  {
+    date: '2020-08-19',
+    totalCases: 75499,
+    newCases: 894,
+    testsRun: 492386, // none today
+    newDeaths: 27
+  },
+  {
+    date: '2020-08-20',
+    totalCases: 76323,
+    newCases: 874,
+    testsRun: 492386, // none today
+    newDeaths: 24
+  },
+  {
+    date: '2020-08-21',
+    totalCases: 77268,
+    newCases: 945,
+    testsRun: 492386, // none today
+    newDeaths: 23
+  },
+  {
+    date: '2020-08-22',
+    totalCases: 77894,
+    newCases: 626,
+    testsRun: 492386, // none today
+    newDeaths: 3
+  },
+  {
+    date: '2020-08-23',
+    totalCases: 78405,
+    newCases: 511,
+    testsRun: 492386, // none today
+    newDeaths: 8
+  },
+  {
+    date: '2020-08-24',
+    totalCases: 79206,
+    newCases: 801,
+    testsRun: 492386, // none today
+    newDeaths: 67
+  },
+  {
+    date: '2020-08-25',
+    totalCases: 80110,
+    newCases: 904,
+    testsRun: 492386, // none today
+    newDeaths: 58
+  },
+  {
+    date: '2020-08-26',
+    totalCases: 80695,
+    newCases: 585,
+    testsRun: 492386, // none today
+    newDeaths: 26
+  },
+  {
+    date: '2020-08-27',
+    totalCases: 81294,
+    newCases: 599,
+    testsRun: 492386, // none today
+    newDeaths: 14
+  },
+  {
+    date: '2020-08-28',
+    totalCases: 82029,
+    newCases: 735,
+    testsRun: 492386, // none today
+    newDeaths: 14
+  },
+  {
+    date: '2020-08-29',
+    totalCases: 82676,
+    newCases: 647,
+    testsRun: 492386, // none today
+    newDeaths: 14
+  },
+  {
+    date: '2020-08-30',
+    totalCases: 82950,
+    newCases: 274,
+    testsRun: 492386, // none today
+    newDeaths: 32
+  },
+  {
+    date: '2020-08-31',
+    totalCases: 83584,
+    newCases: 634,
+    testsRun: 492386, // none today
+    newDeaths: 0
+  },
+  {
+    date: '2020-09-01',
+    totalCases: 84365,
+    newCases: 781,
+    testsRun: 492386, // none today
+    newDeaths: 33
+  },
+  {
+    date: '2020-09-02',
+    totalCases: 85116,
+    newCases: 751,
+    testsRun: 492386, // none today
+    newDeaths: 10
+  },
+  {
+    date: '2020-09-03',
+    totalCases: 85939,
+    newCases: 823,
+    testsRun: 492386, // none today
+    newDeaths: 23
+  },
+  {
+    date: '2020-09-04',
+    totalCases: 86478,
+    newCases: 539,
+    testsRun: 492386, // none today
+    newDeaths: 11
+  },
+  {
+    date: '2020-09-05',
+    totalCases: 86888,
+    newCases: 410,
+    testsRun: 492386, // none today
+    newDeaths: 16
+  },
+  {
+    date: '2020-09-06',
+    totalCases: 87130,
+    newCases: 242,
+    testsRun: 492386, // none today
+    newDeaths: 1
+  },
+  {
+    date: '2020-09-07',
+    totalCases: 87379,
+    newCases: 249,
+    testsRun: 492386, // none today
+    newDeaths: 0
+  },
+  {
+    date: '2020-09-08',
+    totalCases: 87805,
+    newCases: 426,
+    testsRun: 492386, // none today
+    newDeaths: 39
+  },
+  {
+    date: '2020-09-09',
+    totalCases: 88322,
+    newCases: 517,
+    testsRun: 492386, // none today
+    newDeaths: 33
+  },
+  {
+    date: '2020-09-10',
+    totalCases: 89175,
+    newCases: 853,
+    testsRun: 492386, // none today
+    newDeaths: 15
+  },
 ]
 
 export let movingAvg = [{
