@@ -1900,7 +1900,7 @@ const dataset = [
     date: '2020-12-07',
     totalCases: 167926,
     newCases: 1732,
-    testsRun: 613122,
+    testsRun: 1154216,
     newDeaths: 56
   },
 ]
