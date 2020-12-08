@@ -1287,6 +1287,622 @@ const dataset = [
     testsRun: 613122,
     newDeaths: 15
   },
+  {
+    date: '2020-09-11',
+    totalCases: 89620,
+    newCases: 445,
+    testsRun: 613122,
+    newDeaths: 15
+  },
+  {
+    date: '2020-09-12',
+    totalCases: 89874,
+    newCases: 254,
+    testsRun: 613122,
+    newDeaths: 12
+  },
+  {
+    date: '2020-09-13',
+    totalCases: 90018,
+    newCases: 145,
+    testsRun: 613122,
+    newDeaths: 9
+  },
+  {
+    date: '2020-09-14',
+    totalCases: 90523,
+    newCases: 505,
+    testsRun: 613122,
+    newDeaths: 28
+  },
+  {
+    date: '2020-09-15',
+    totalCases: 91234,
+    newCases: 711,
+    testsRun: 613122,
+    newDeaths: 22
+  },
+  {
+    date: '2020-09-16',
+    totalCases: 91935,
+    newCases: 701,
+    testsRun: 613122,
+    newDeaths: 24
+  },
+  {
+    date: '2020-09-17',
+    totalCases: 92432,
+    newCases: 497,
+    testsRun: 613122,
+    newDeaths: 12
+  },
+  {
+    date: '2020-09-18',
+    totalCases: 93087,
+    newCases: 655,
+    testsRun: 613122,
+    newDeaths: 17
+  },
+  {
+    date: '2020-09-19',
+    totalCases: 93364,
+    newCases: 277,
+    testsRun: 613122,
+    newDeaths: 1
+  },
+  {
+    date: '2020-09-20',
+    totalCases: 93556,
+    newCases: 192,
+    testsRun: 613122,
+    newDeaths: 0
+  },
+  {
+    date: '2020-09-21',
+    totalCases: 94021,
+    newCases: 465,
+    testsRun: 613122,
+    newDeaths: 36
+  },
+  {
+    date: '2020-09-22',
+    totalCases: 94573,
+    newCases: 552,
+    testsRun: 613122,
+    newDeaths: 24
+  },
+  {
+    date: '2020-09-23',
+    totalCases: 95310,
+    newCases: 737,
+    testsRun: 613122,
+    newDeaths: 4
+  },
+  {
+    date: '2020-09-24',
+    totalCases: 96032,
+    newCases: 722,
+    testsRun: 613122,
+    newDeaths: 20
+  },
+  {
+    date: '2020-09-25',
+    totalCases: 96677,
+    newCases: 645,
+    testsRun: 613122,
+    newDeaths: 17
+  },
+  {
+    date: '2020-09-26',
+    totalCases: 96859,
+    newCases: 182,
+    testsRun: 613122,
+    newDeaths: 8
+  },
+  {
+    date: '2020-09-27',
+    totalCases: 97049,
+    newCases: 190,
+    testsRun: 613122,
+    newDeaths: 2
+  },
+  {
+    date: '2020-09-28',
+    totalCases: 97638,
+    newCases: 589,
+    testsRun: 613122,
+    newDeaths: 36
+  },
+  {
+    date: '2020-09-29',
+    totalCases: 98190,
+    newCases: 552,
+    testsRun: 613122,
+    newDeaths: 12
+  },
+  {
+    date: '2020-09-30',
+    totalCases: 98886,
+    newCases: 696,
+    testsRun: 613122,
+    newDeaths: 10
+  },
+  {
+    date: '2020-10-01',
+    totalCases: 99558,
+    newCases: 672,
+    testsRun: 613122,
+    newDeaths: 20
+  },
+  {
+    date: '2020-10-02',
+    totalCases: 100167,
+    newCases: 609,
+    testsRun: 613122,
+    newDeaths: 16
+  },
+  {
+    date: '2020-10-03',
+    totalCases: 100488,
+    newCases: 321,
+    testsRun: 613122,
+    newDeaths: 2
+  },
+  {
+    date: '2020-10-04',
+    totalCases: 100703,
+    newCases: 215,
+    testsRun: 613122,
+    newDeaths: 0
+  },
+  {
+    date: '2020-10-05',
+    totalCases: 101678,
+    newCases: 975,
+    testsRun: 613122,
+    newDeaths: 14
+  },
+  {
+    date: '2020-10-06',
+    totalCases: 102241,
+    newCases: 563,
+    testsRun: 613122,
+    newDeaths: 24
+  },
+  {
+    date: '2020-10-07',
+    totalCases: 102819,
+    newCases: 578,
+    testsRun: 613122,
+    newDeaths: 23
+  },
+  {
+    date: '2020-10-08',
+    totalCases: 103681,
+    newCases: 862,
+    testsRun: 613122,
+    newDeaths: 6
+  },
+  {
+    date: '2020-10-09',
+    totalCases: 104638,
+    newCases: 957,
+    testsRun: 613122,
+    newDeaths: 16
+  },
+  {
+    date: '2020-10-10',
+    totalCases: 104932,
+    newCases: 294,
+    testsRun: 613122,
+    newDeaths: 5
+  },
+  {
+    date: '2020-10-11',
+    totalCases: 105228,
+    newCases: 296,
+    testsRun: 613122,
+    newDeaths: 0
+  },
+  {
+    date: '2020-10-12',
+    totalCases: 105941,
+    newCases: 713,
+    testsRun: 613122,
+    newDeaths: 14
+  },
+  {
+    date: '2020-10-13',
+    totalCases: 106817,
+    newCases: 876,
+    testsRun: 613122,
+    newDeaths: 25
+  },
+  {
+    date: '2020-10-14',
+    totalCases: 108139,
+    newCases: 1322,
+    testsRun: 613122,
+    newDeaths: 12
+  },
+  {
+    date: '2020-10-15',
+    totalCases: 109255,
+    newCases: 1116,
+    testsRun: 613122,
+    newDeaths: 9
+  },
+  {
+    date: '2020-10-16',
+    totalCases: 110006,
+    newCases: 751,
+    testsRun: 613122,
+    newDeaths: 10
+  },
+  {
+    date: '2020-10-17',
+    totalCases: 110006,
+    newCases: 0,
+    testsRun: 613122,
+    newDeaths: 0
+  },
+  {
+    date: '2020-10-18',
+    totalCases: 110592,
+    newCases: 586,
+    testsRun: 613122,
+    newDeaths: 0
+  },
+  {
+    date: '2020-10-19',
+    totalCases: 111322,
+    newCases: 730,
+    testsRun: 613122,
+    newDeaths: 31
+  },
+  {
+    date: '2020-10-20',
+    totalCases: 112123,
+    newCases: 801,
+    testsRun: 613122,
+    newDeaths: 21
+  },
+  {
+    date: '2020-10-21',
+    totalCases: 113081,
+    newCases: 958,
+    testsRun: 613122,
+    newDeaths: 8
+  },
+  {
+    date: '2020-10-22',
+    totalCases: 113876,
+    newCases: 795,
+    testsRun: 613122,
+    newDeaths: 7
+  },
+  {
+    date: '2020-10-23',
+    totalCases: 115088,
+    newCases: 1212,
+    testsRun: 613122,
+    newDeaths: 17
+  },
+  {
+    date: '2020-10-24',
+    totalCases: 115088,
+    newCases: 0,
+    testsRun: 613122,
+    newDeaths: 0
+  },
+  {
+    date: '2020-10-25',
+    totalCases: 115763,
+    newCases: 675,
+    testsRun: 613122,
+    newDeaths: 8
+  },
+  {
+    date: '2020-10-26',
+    totalCases: 116617,
+    newCases: 854,
+    testsRun: 613122,
+    newDeaths: 20
+  },
+  {
+    date: '2020-10-27',
+    totalCases: 117617,
+    newCases: 1000,
+    testsRun: 613122,
+    newDeaths: 19
+  },
+  {
+    date: '2020-10-28',
+    totalCases: 118587,
+    newCases: 970,
+    testsRun: 613122,
+    newDeaths: 8
+  },
+  {
+    date: '2020-10-29',
+    totalCases: 119336,
+    newCases: 749,
+    testsRun: 613122,
+    newDeaths: 18
+  },
+  {
+    date: '2020-10-30',
+    totalCases: 120160,
+    newCases: 824,
+    testsRun: 613122,
+    newDeaths: 6
+  },
+  {
+    date: '2020-10-31',
+    totalCases: 120500,
+    newCases: 340,
+    testsRun: 613122,
+    newDeaths: 14
+  },
+  {
+    date: '2020-11-01',
+    totalCases: 120865,
+    newCases: 365,
+    testsRun: 613122,
+    newDeaths: 0
+  },
+  {
+    date: '2020-11-02',
+    totalCases: 121509,
+    newCases: 644,
+    testsRun: 613122,
+    newDeaths: 36
+  },
+  {
+    date: '2020-11-03',
+    totalCases: 122275,
+    newCases: 766,
+    testsRun: 613122,
+    newDeaths: 13
+  },
+  {
+    date: '2020-11-04',
+    totalCases: 123887,
+    newCases: 1612,
+    testsRun: 613122,
+    newDeaths: 8
+  },
+  {
+    date: '2020-11-05',
+    totalCases: 124854,
+    newCases: 967,
+    testsRun: 613122,
+    newDeaths: 14
+  },
+  {
+    date: '2020-11-06',
+    totalCases: 125885,
+    newCases: 1031,
+    testsRun: 613122,
+    newDeaths: 15
+  },
+  {
+    date: '2020-11-07',
+    totalCases: 126689,
+    newCases: 804,
+    testsRun: 613122,
+    newDeaths: 10
+  },
+  {
+    date: '2020-11-08',
+    totalCases: 127205,
+    newCases: 516,
+    testsRun: 613122,
+    newDeaths: 0
+  },
+  {
+    date: '2020-11-09',
+    totalCases: 128138,
+    newCases: 933,
+    testsRun: 613122,
+    newDeaths: 37
+  },
+  {
+    date: '2020-11-10',
+    totalCases: 129394,
+    newCases: 1256,
+    testsRun: 613122,
+    newDeaths: 17
+  },
+  {
+    date: '2020-11-11',
+    totalCases: 130665,
+    newCases: 1271,
+    testsRun: 613122,
+    newDeaths: 17
+  },
+  {
+    date: '2020-11-12',
+    totalCases: 131970,
+    newCases: 1305,
+    testsRun: 613122,
+    newDeaths: 5
+  },
+  {
+    date: '2020-11-13',
+    totalCases: 133340,
+    newCases: 1370,
+    testsRun: 613122,
+    newDeaths: 21
+  },
+  {
+    date: '2020-11-14',
+    totalCases: 134309,
+    newCases: 969,
+    testsRun: 613122,
+    newDeaths: 3
+  },
+  {
+    date: '2020-11-15',
+    totalCases: 134898,
+    newCases: 589,
+    testsRun: 613122,
+    newDeaths: 2
+  },
+  {
+    date: '2020-11-16',
+    totalCases: 135803,
+    newCases: 905,
+    testsRun: 613122,
+    newDeaths: 36
+  },
+  {
+    date: '2020-11-17',
+    totalCases: 137396,
+    newCases: 1593,
+    testsRun: 613122,
+    newDeaths: 20
+  },
+  {
+    date: '2020-11-18',
+    totalCases: 138791,
+    newCases: 1395,
+    testsRun: 613122,
+    newDeaths: 19
+  },
+  {
+    date: '2020-11-19',
+    totalCases: 140429,
+    newCases: 1638,
+    testsRun: 613122,
+    newDeaths: 23
+  },
+  {
+    date: '2020-11-20',
+    totalCases: 142401,
+    newCases: 1972,
+    testsRun: 613122,
+    newDeaths: 15
+  },
+  {
+    date: '2020-11-21',
+    totalCases: 143180,
+    newCases: 779,
+    testsRun: 613122,
+    newDeaths: 19
+  },
+  {
+    date: '2020-11-22',
+    totalCases: 143879,
+    newCases: 699,
+    testsRun: 613122,
+    newDeaths: 0
+  },
+  {
+    date: '2020-11-23',
+    totalCases: 144544,
+    newCases: 665,
+    testsRun: 613122,
+    newDeaths: 53
+  },
+  {
+    date: '2020-11-24',
+    totalCases: 145636,
+    newCases: 1092,
+    testsRun: 613122,
+    newDeaths: 16
+  },
+  {
+    date: '2020-11-25',
+    totalCases: 147382,
+    newCases: 1746,
+    testsRun: 613122,
+    newDeaths: 18
+  },
+  {
+    date: '2020-11-26',
+    totalCases: 148387,
+    newCases: 1005,
+    testsRun: 613122,
+    newDeaths: 6
+  },
+  {
+    date: '2020-11-27',
+    totalCases: 149940,
+    newCases: 1553,
+    testsRun: 613122,
+    newDeaths: 10
+  },
+  {
+    date: '2020-11-28',
+    totalCases: 151785,
+    newCases: 1845,
+    testsRun: 613122,
+    newDeaths: 27
+  },
+  {
+    date: '2020-11-29',
+    totalCases: 153270,
+    newCases: 1485,
+    testsRun: 613122,
+    newDeaths: 1
+  },
+  {
+    date: '2020-11-30',
+    totalCases: 154411,
+    newCases: 1141,
+    testsRun: 613122,
+    newDeaths: 29
+  },
+  {
+    date: '2020-12-01',
+    totalCases: 156868,
+    newCases: 2457,
+    testsRun: 613122,
+    newDeaths: 15
+  },
+  {
+    date: '2020-12-02',
+    totalCases: 159036,
+    newCases: 2168,
+    testsRun: 613122,
+    newDeaths: 28
+  },
+  {
+    date: '2020-12-03',
+    totalCases: 161516,
+    newCases: 2480,
+    testsRun: 613122,
+    newDeaths: 37
+  },
+  {
+    date: '2020-12-04',
+    totalCases: 163458,
+    newCases: 1942,
+    testsRun: 613122,
+    newDeaths: 33
+  },
+  {
+    date: '2020-12-05',
+    totalCases: 164931,
+    newCases: 1473,
+    testsRun: 613122,
+    newDeaths: 12
+  },
+  {
+    date: '2020-12-06',
+    totalCases: 166194,
+    newCases: 1263,
+    testsRun: 613122,
+    newDeaths: 0
+  },
+  {
+    date: '2020-12-07',
+    totalCases: 167926,
+    newCases: 1732,
+    testsRun: 613122,
+    newDeaths: 56
+  },
 ]
 
 export let movingAvg = [{
