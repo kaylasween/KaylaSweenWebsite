@@ -1904,7 +1904,7 @@ const dataset = [
     newDeaths: 56
   },
   {
-    date: '2020-12-07',
+    date: '2020-12-08',
     totalCases: 171584,
     newCases: 3658,
     testsRun: 1154216,
