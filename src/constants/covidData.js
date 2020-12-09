@@ -1905,10 +1905,10 @@ const dataset = [
   },
   {
     date: '2020-12-08',
-    totalCases: 171584,
-    newCases: 3658,
+    totalCases: 170672,
+    newCases: 2746,
     testsRun: 1154216,
-    newDeaths: 25
+    newDeaths: 24
   },
 ]
 
