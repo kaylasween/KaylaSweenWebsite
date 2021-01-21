@@ -2022,6 +2022,195 @@ const dataset = [
     testsRun: 1154216,
     newDeaths: 6
   },
+  {
+    date: '2020-12-25',
+    totalCases: 205023,
+    newCases: 845,
+    testsRun: 1154216,
+    newDeaths: 3
+  },
+  {
+    date: '2020-12-26',
+    totalCases: 206388,
+    newCases: 1365,
+    testsRun: 1154216,
+    newDeaths: 41
+  },
+  {
+    date: '2020-12-27',
+    totalCases: 208089,
+    newCases: 1701,
+    testsRun: 1154216,
+    newDeaths: 28
+  },
+  {
+    date: '2020-12-28',
+    totalCases: 210032,
+    newCases: 1943,
+    testsRun: 1154216,
+    newDeaths: 85
+  },
+  {
+    date: '2020-12-29',
+    totalCases: 213055,
+    newCases: 3023,
+    testsRun: 1154216,
+    newDeaths: 29
+  },
+  {
+    date: '2020-12-30',
+    totalCases: 215811,
+    newCases: 2756,
+    testsRun: 1154216,
+    newDeaths: 40
+  },
+  {
+    date: '2020-12-31',
+    totalCases: 218386,
+    newCases: 2575,
+    testsRun: 1154216,
+    newDeaths: 29
+  },
+  {
+    date: '2021-01-01',
+    totalCases: 220277,
+    newCases: 1891,
+    testsRun: 1154216,
+    newDeaths: 24
+  },
+  {
+    date: '2021-01-02',
+    totalCases: 222061,
+    newCases: 1784,
+    testsRun: 1154216,
+    newDeaths: 32
+  },
+  {
+    date: '2021-01-03',
+    totalCases: 223677,
+    newCases: 1616,
+    testsRun: 1154216,
+    newDeaths: 13
+  },
+  {
+    date: '2021-01-04',
+    totalCases: 225444,
+    newCases: 1767,
+    testsRun: 1154216,
+    newDeaths: 91
+  },
+  {
+    date: '2021-01-05',
+    totalCases: 228235,
+    newCases: 2791,
+    testsRun: 1154216,
+    newDeaths: 0
+  },
+  {
+    date: '2021-01-06',
+    totalCases: 231490,
+    newCases: 3255,
+    testsRun: 1154216,
+    newDeaths: 48
+  },
+  {
+    date: '2021-01-07',
+    totalCases: 223665,
+    newCases: 2175,
+    testsRun: 1154216,
+    newDeaths: 40
+  },
+  {
+    date: '2021-01-08',
+    totalCases: 236868,
+    newCases: 3203,
+    testsRun: 1154216,
+    newDeaths: 46
+  },
+  {
+    date: '2021-01-09',
+    totalCases: 239082,
+    newCases: 2214,
+    testsRun: 1154216,
+    newDeaths: 22
+  },
+  {
+    date: '2021-01-10',
+    totalCases: 240309,
+    newCases: 1227,
+    testsRun: 1154216,
+    newDeaths: 19
+  },
+  {
+    date: '2021-01-11',
+    totalCases: 241957,
+    newCases: 1648,
+    testsRun: 1154216,
+    newDeaths: 98
+  },
+  {
+    date: '2021-01-12',
+    totalCases: 243899,
+    newCases: 1942,
+    testsRun: 1154216,
+    newDeaths: 31
+  },
+  {
+    date: '2021-01-13',
+    totalCases: 245847,
+    newCases: 1948,
+    testsRun: 1154216,
+    newDeaths: 41
+  },
+  {
+    date: '2021-01-14',
+    totalCases: 248189,
+    newCases: 2342,
+    testsRun: 1154216,
+    newDeaths: 55
+  },
+  {
+    date: '2021-01-15',
+    totalCases: 250869,
+    newCases: 2680,
+    testsRun: 1154216,
+    newDeaths: 70
+  },
+  {
+    date: '2021-01-16',
+    totalCases: 252475,
+    newCases: 1606,
+    testsRun: 1154216,
+    newDeaths: 40
+  },
+  {
+    date: '2021-01-17',
+    totalCases: 253932,
+    newCases: 1457,
+    testsRun: 1154216,
+    newDeaths: 3
+  },
+  {
+    date: '2021-01-18',
+    totalCases: 255125,
+    newCases: 1193,
+    testsRun: 1154216,
+    newDeaths: 51
+  },
+  {
+    date: '2021-01-19',
+    totalCases: 256827,
+    newCases: 1702,
+    testsRun: 1154216,
+    newDeaths: 64
+  },
+  {
+    date: '2021-01-20',
+    totalCases: 259117,
+    newCases: 2290,
+    testsRun: 1420596,
+    newDeaths: 30
+  },
 ]
 
 export let movingAvg = [{
