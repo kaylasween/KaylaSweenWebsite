@@ -1,7 +1,7 @@
 const axios = require('axios')
 const cheerio = require('cheerio')
 const fs = require('fs')
-const data = require('../constants/covidData.json')
+const data = require('../src/constants/covidData.json')
 
 const msdh = 'https://msdh.ms.gov/msdhsite/_static/14,0,420.html'
 
