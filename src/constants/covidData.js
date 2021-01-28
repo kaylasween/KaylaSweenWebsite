@@ -48,5 +48,3 @@ export let percentPositive = [{
   color: "#86D6C2",
   data: positivityPercentagePerDay
 }]
-
-console.log(percentPositive)
