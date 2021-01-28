@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   schedule:
-    - cron: "14 22 * * *"
+    - cron: "16 22 * * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -25,6 +25,11 @@ jobs:
       
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.4
+    
+      - name: Install axios and cheerio
+        run: |
+          npm install axios
+          npm install cheerio
     
       - name: Get Covid Data
         run: |
