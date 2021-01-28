@@ -1,7 +1,5 @@
 import { data } from './covidData.json'
 
-console.log(data)
-
 const dataset = data
 
 export let movingAvg = [{
@@ -28,9 +26,6 @@ let dailyCases = dataset.slice(dataset.length - 30, dataset.length).map(point =>
   }
   return point
 })
-
-// dailyCases = dailyCases.slice[dailyCases.length - 30, dailyCases.length]
-console.log(dailyCases)
 
 export let covidCasesPerDay = [{
   id: "covidMsDayToDay",
