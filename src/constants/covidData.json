@@ -2260,6 +2260,13 @@
       "newDeaths": 28,
       "totalCases": 270476,
       "testsRun": 1463634
+    },
+    {
+      "date": "2021-01-28",
+      "newCases": 2186,
+      "newDeaths": 38,
+      "totalCases": 272662,
+      "testsRun": 1463634
     }
   ]
 }
