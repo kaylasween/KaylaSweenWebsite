@@ -22,7 +22,7 @@ const Footer = () => (
       </a>
     </span>
     <span>
-      © {new Date().getFullYear()} Kayla Sween <FontAwesomeIcon icon={faLaptopCode} />
+      © {new Date().getFullYear()} Kayla Sween
     </span>
   </footer>
 )
