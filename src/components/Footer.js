@@ -1,5 +1,8 @@
 import React from 'react'
 
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import "../styles/layout/_footer.scss"
 
 const Footer = () => (
@@ -19,7 +22,7 @@ const Footer = () => (
       </a>
     </span>
     <span>
-      © {new Date().getFullYear()} Kayla Sween
+      © {new Date().getFullYear()} Kayla Sween <FontAwesomeIcon icon={faLaptopCode} />
     </span>
   </footer>
 )
