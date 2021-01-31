@@ -54,11 +54,13 @@ const getTestsRun = async () => {
 }
 
 let today = new Date()
+today.setDate(today.getDate() - 1) //subtracting one from day because this will always be data from the previous day
+
 //for correct date formatting
 let day = today.getDate() < 10 ? '0' + today.getDate() : today.getDate()
 let month = (today.getMonth() + 1) < 10 ? '0' + (today.getMonth() + 1) : (today.getMonth() + 1)
 let daily = {
-  date: today.getFullYear() + '-' + month + '-' + (day - 1), //subtracting one from day because this will always be data from the previous day
+  date: today.getFullYear() + '-' + month + '-' + day,
   newCases: 0,
   newDeaths: 0,
   totalCases: 0,
