@@ -9,7 +9,6 @@ import CovidMsMovingAvg from '../components/data/covidMsMovingAvg'
 import CovidMsPercentPositive from '../components/data/covidMsPercentPositive'
 
 import { covidCasesPerDay, movingAvg, percentPositive } from '../constants/covidData'
-import { faQuestionCircle } from '@fortawesome/free-solid-svg-icons'
 
 const covid19 = (props) => {
   return (
