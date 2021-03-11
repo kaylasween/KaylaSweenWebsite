@@ -6,51 +6,36 @@ const data = require('../src/constants/covidData.json')
 const msdh = 'https://msdh.ms.gov/msdhsite/_static/14,0,420.html'
 
 const getDailyCases = async () => {
-  try {
-    const { data } = await axios.get(msdh)
-    const $ = cheerio.load(data);
-    let dailyCases = parseInt($('[data-description="New cases"]').text().replace(/,/g, ''))
+  const { data } = await axios.get(msdh)
+  const $ = cheerio.load(data)
+  let dailyCases = parseInt($('[data-description="New cases"]').text().replace(/,/g, ''))
 
-    return dailyCases
-  } catch (error) {
-    throw error;
-  }
+  return dailyCases
 }
 
 const getTotalCases = async () => {
-  try {
-    const { data } = await axios.get(msdh)
-    const $ = cheerio.load(data);
-    let total = parseInt($('[data-description="Total MS cases"]').text().replace(/,/g, ''))
+  const { data } = await axios.get(msdh)
+  const $ = cheerio.load(data)
+  let total = parseInt($('[data-description="Total MS cases"]').text().replace(/,/g, ''))
 
-    return total
-  } catch (error) {
-    throw error;
-  }
+  return total
 }
 
 const getDailyDeaths = async () => {
-  try {
-    const { data } = await axios.get(msdh)
-    const $ = cheerio.load(data);
-    let deaths = parseInt($('[data-description="New deaths"]').text().replace(/,/g, ''))
 
-    return deaths
-  } catch (error) {
-    throw error;
-  }
+  const { data } = await axios.get(msdh)
+  const $ = cheerio.load(data)
+  let deaths = parseInt($('[data-description="New deaths"]').text().replace(/,/g, ''))
+
+  return deaths
 }
 
 const getTestsRun = async () => {
-  try {
-    const { data } = await axios.get(msdh)
-    const $ = cheerio.load(data);
-    let tests = parseInt($('[data-description="Total tests PCR"]').text().replace(/,/g, ''))
+  const { data } = await axios.get(msdh)
+  const $ = cheerio.load(data)
+  let tests = parseInt($('[data-description="PCR tests"]').text().replace(/,/g, ''))
 
-    return tests
-  } catch (error) {
-    throw error;
-  }
+  return tests
 }
 
 let today = new Date()
@@ -68,16 +53,16 @@ let daily = {
 }
 
 const getCovidData = async () => {
-  await getDailyDeaths().then((dailyDeaths) => daily.newDeaths = dailyDeaths)
-  await getTestsRun().then((tests) => daily.testsRun = tests)
-  await getDailyCases().then((dailyCases) => daily.newCases = dailyCases)
-  await getTotalCases().then((total) => daily.totalCases = total)
+  daily.newDeaths = await getDailyDeaths()
+  daily.testsRun = await getTestsRun()
+  daily.newCases = await getDailyCases()
+  daily.totalCases = await getTotalCases()
 
   if (!data.data.includes(daily.date) && daily.newCases != 0) {
     data.data.push(daily)
 
     fs.writeFile('src/constants/covidData.json', JSON.stringify(data), (err) => {
-      if (err) throw err;
+      if (err) throw err
     })
   }
 }
