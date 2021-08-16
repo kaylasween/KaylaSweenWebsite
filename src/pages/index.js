@@ -17,9 +17,8 @@ const IndexPage = () => (
       <h1>Hi! I'm Kayla. I am a front-end engineer, powerlifter, and dog mom.</h1>
       <p>
         This site is currently a work-in-progress, but feel free to poke around!
-      To see what I'm working on, visit <a href="https://github.com/kaylasween">my GitHub</a> to see what I'm working on now.
-    </p>
-      <p>I'm also starting to add some visualizations for COVID-19 cases in Mississippi. You can visit the <Link to="/COVID-19/">COVID-19 section of my site</Link> to see those.</p>
+        To see what I'm working on, visit <a href="https://github.com/kaylasween">my GitHub</a> to see what I'm working on now.
+      </p>
     </div>
   </Layout>
 )
