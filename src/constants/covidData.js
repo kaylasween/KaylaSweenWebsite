@@ -32,19 +32,3 @@ export let covidCasesPerDay = [{
   color: "#86D6C2",
   data: dailyCases
 }]
-
-let filterDatesBeforeApril28 = dataset.slice(dataset.length - 30, dataset.length)
-
-let positivityPercentagePerDay = filterDatesBeforeApril28.map(point => {
-  point = {
-    x: point.date,
-    y: (point.totalCases / point.testsRun) * 100
-  }
-  return point
-})
-
-export let percentPositive = [{
-  id: "percentPositive",
-  color: "#86D6C2",
-  data: positivityPercentagePerDay
-}]

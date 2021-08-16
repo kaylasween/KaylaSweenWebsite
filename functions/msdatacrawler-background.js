@@ -5,41 +5,44 @@ const data = require('../src/constants/covidData.json')
 
 const msdh = 'https://msdh.ms.gov/msdhsite/_static/14,0,420.html'
 
-const getDailyCases = async () => {
+const getPage = async () => {
   const { data } = await axios.get(msdh)
-  const $ = cheerio.load(data)
+  const cheerioData = cheerio.load(data)
+
+  return cheerioData
+}
+
+const getDailyCases = async () => {
+  const $ = await getPage()
   let dailyCases = parseInt($('[data-description="New cases"]').text().replace(/,/g, ''))
 
   return dailyCases
 }
 
 const getTotalCases = async () => {
-  const { data } = await axios.get(msdh)
-  const $ = cheerio.load(data)
+  const $ = await getPage()
   let total = parseInt($('[data-description="Total MS cases"]').text().replace(/,/g, ''))
 
   return total
 }
 
 const getDailyDeaths = async () => {
-
-  const { data } = await axios.get(msdh)
-  const $ = cheerio.load(data)
+  const $ = await getPage()
   let deaths = parseInt($('[data-description="New deaths"]').text().replace(/,/g, ''))
 
   return deaths
 }
 
-const getTestsRun = async () => {
-  const { data } = await axios.get(msdh)
-  const $ = cheerio.load(data)
-  let tests = parseInt($('[data-description="PCR tests"]').text().replace(/,/g, ''))
+const getLastUpdateDate = async () => {
+  const $ = await getPage()
+  let date = $('[data-description="As of: Cases"]').text().replace(/,/g, '').replace('New Cases and Deaths as of ', '')
 
-  return tests
+  return date
 }
 
 let today = new Date()
 today.setDate(today.getDate() - 1) //subtracting one from day because this will always be data from the previous day
+
 
 //for correct date formatting
 let day = today.getDate() < 10 ? '0' + today.getDate() : today.getDate()
@@ -48,22 +51,24 @@ let daily = {
   date: today.getFullYear() + '-' + month + '-' + day,
   newCases: 0,
   newDeaths: 0,
-  totalCases: 0,
-  testsRun: 0
+  totalCases: 0
 }
 
 const getCovidData = async () => {
-  daily.newDeaths = await getDailyDeaths()
-  daily.testsRun = await getTestsRun()
-  daily.newCases = await getDailyCases()
-  daily.totalCases = await getTotalCases()
+  let lastUpdatedDate = new Date(await getLastUpdateDate())
 
-  if (!data.data.includes(daily.date) && daily.newCases != 0) {
-    data.data.push(daily)
+  if (today === lastUpdatedDate) {
+    daily.newDeaths = await getDailyDeaths()
+    daily.newCases = await getDailyCases()
+    daily.totalCases = await getTotalCases()
 
-    fs.writeFile('src/constants/covidData.json', JSON.stringify(data), (err) => {
-      if (err) throw err
-    })
+    if (!data.data.includes(daily.date)) {
+      data.data.push(daily)
+
+      fs.writeFile('src/constants/covidData.json', JSON.stringify(data), (err) => {
+        if (err) throw err
+      })
+    }
   }
 }
 
