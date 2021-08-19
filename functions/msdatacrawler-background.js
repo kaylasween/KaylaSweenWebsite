@@ -55,7 +55,8 @@ let daily = {
 }
 
 const getCovidData = async () => {
-  let lastUpdatedDate = new Date(await getLastUpdateDate())
+  let lastUpdated = await getLastUpdateDate()
+  let lastUpdatedDate = new Date(`${lastUpdated}, ${today.getFullYear()}`)
 
   if (today === lastUpdatedDate) {
     daily.newDeaths = await getDailyDeaths()
