@@ -45,7 +45,7 @@ h1 {
   padding: 2em;
 }
 
-#app {
+#svelte {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -69,6 +69,16 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
 }
 
 @media (prefers-color-scheme: light) {

@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@sveltejs/adapter-auto": "^1.0.0-next.84",
     "@sveltejs/adapter-netlify": "^1.0.0-next.81",
+    "@sveltejs/kit": "^1.0.0-next.520",
     "@sveltejs/vite-plugin-svelte": "^1.0.2",
     "cypress": "^10.10.0",
     "svelte": "^3.49.0",
