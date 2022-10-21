@@ -71,6 +71,16 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
 .visually-hidden:not(:focus):not(:active) {
   clip: rect(0 0 0 0); 
   clip-path: inset(50%);
