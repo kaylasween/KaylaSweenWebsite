@@ -12,7 +12,7 @@
 </main>
 
 <footer>
-  <a href="https://twitter.com/_KaylaSween">
+  <a rel="me" href="https://twitter.com/_KaylaSween">
     <Twitter />
     <span class="visually-hidden">Twitter</span>
   </a>
