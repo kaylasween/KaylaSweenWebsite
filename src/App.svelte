@@ -1,5 +1,6 @@
 <script>
   import Logo from './assets/logo.svelte'
+  import Github from './assets/github.svelte'
   import Mastodon from './assets/mastodon.svelte'
   import Twitter from './assets/twitter.svelte'
 </script>
@@ -16,9 +17,13 @@
     <Twitter />
     <span class="visually-hidden">Twitter</span>
   </a>
-  <a rel="me" href="https://mas.to/@kaylasween">
+  <a href="https://mas.to/@kaylasween">
     <Mastodon />
     <span class="visually-hidden">Mastodon</span>
+  </a>
+  <a href="https://github.com/kaylasween">
+    <Github />
+    <span class="visually-hidden">Github</span>
   </a>
 </footer>
 
