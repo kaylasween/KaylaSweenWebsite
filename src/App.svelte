@@ -13,15 +13,15 @@
 </main>
 
 <footer>
-  <a rel="me" href="https://twitter.com/_KaylaSween">
+  <a href="https://twitter.com/_KaylaSween">
     <Twitter />
     <span class="visually-hidden">Twitter</span>
   </a>
-  <a rel="me" href="https://mas.to/@kaylasween">
+  <a href="https://mas.to/@kaylasween">
     <Mastodon />
     <span class="visually-hidden">Mastodon</span>
   </a>
-  <a rel="me authn" href="https://github.com/kaylasween">
+  <a href="https://github.com/kaylasween">
     <Github />
     <span class="visually-hidden">Github</span>
   </a>
