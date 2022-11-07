@@ -11,7 +11,7 @@
 <ul class="project-list">
     {#each projects as project}
         <li class="project-list-item">
-            <a href={project.slug.current}>{project.title}</a>
+            <a href={project.url}>{project.title}</a>
         </li>
     {/each}
 </ul>

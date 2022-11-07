@@ -5,7 +5,8 @@ export async function load({ params }) {
         _type == "project"
     ]{
         title,
-        description
+        description,
+        url
     }`)
 
     return {
