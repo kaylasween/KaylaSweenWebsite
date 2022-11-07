@@ -46,8 +46,9 @@ h1 {
 }
 
 #svelte {
-  max-width: 1280px;
   margin: 0 auto;
+  max-width: 1280px;
+  min-width: 90vw;
   padding: 2rem;
   text-align: center;
 }
