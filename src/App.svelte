@@ -21,7 +21,7 @@
     <Mastodon />
     <span class="visually-hidden">Mastodon</span>
   </a>
-  <a rel="me" href="https://github.com/kaylasween">
+  <a rel="me authn" href="https://github.com/kaylasween">
     <Github />
     <span class="visually-hidden">Github</span>
   </a>
