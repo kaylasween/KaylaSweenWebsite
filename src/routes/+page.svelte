@@ -1,5 +1,8 @@
 <svelte:head>
 	<title>Kayla Sween</title>
+	<link href="https://twitter.com/_KaylaSween" rel="me">
+	<link href="https://github.com/kaylasween" rel="me">
+	<link href="https://mas.to/@kaylasween" rel="me">
 </svelte:head>
 
 <h1>Hey! I'm Kayla Sween.</h1>
