@@ -18,10 +18,9 @@ export default {
       },
     },
     {
-      name: 'author',
-      title: 'Author',
-      type: 'reference',
-      to: {type: 'author'},
+      name: 'canonical',
+      title: 'Canonical Link',
+      type: 'url'
     },
     {
       name: 'mainImage',
@@ -40,7 +39,7 @@ export default {
     {
       name: 'publishedAt',
       title: 'Published at',
-      type: 'datetime',
+      type: 'date',
     },
     {
       name: 'body',
