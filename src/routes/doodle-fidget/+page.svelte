@@ -14,7 +14,12 @@
 <p>
   If you have any questions or need support, please fill out the form below.
 </p>
-<form action="/success" method="POST" name="appsupport" data-netlify="true">
+<form
+  action="/doodle-fidget/success"
+  method="POST"
+  name="appsupport"
+  data-netlify="true"
+>
   <div>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required />
