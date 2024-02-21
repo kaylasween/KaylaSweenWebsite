@@ -2,7 +2,10 @@ import adapter from '@sveltejs/adapter-netlify'
 
 const config = {
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+			handleHttpError: 'warn'
+		}
 	},
 
 	vitePlugin: {
@@ -12,6 +15,6 @@ const config = {
 			}
 		}
 	}
-};
+}
 
-export default config;
+export default config
