@@ -89,13 +89,37 @@ nav ul li {
   list-style-type: none;
 }
 
+input[type='text'],
+input[type='email'] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin: 0.5rem;
+}
+
 .visually-hidden:not(:focus):not(:active) {
-  clip: rect(0 0 0 0); 
+  clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
-  white-space: nowrap; 
+  white-space: nowrap;
   width: 1px;
 }
 
@@ -104,7 +128,7 @@ nav ul li {
     color: #213547;
     background-color: #ffffff;
   }
-  
+
   a {
     color: #638f85;
   }
