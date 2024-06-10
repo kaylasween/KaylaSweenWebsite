@@ -1,5 +1,5 @@
 <script>
-  import '../../app.css'
+  import './app.css'
   import Logo from '../../assets/logo.svelte'
   import Github from '../../assets/github.svelte'
   import Mastodon from '../../assets/mastodon.svelte'
@@ -38,9 +38,3 @@
     <span class="visually-hidden">Github</span>
   </a>
 </footer>
-
-<style>
-  :global(#svelte) {
-    background-color: #131231;
-  }
-</style>
