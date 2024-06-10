@@ -1,0 +1,30 @@
+:root {
+  background-color: #ebf6f5;
+  color: #213547;
+  font-family: 'Inter', 'Avenir', 'Helvetica', 'Arial', sans-serif;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  margin: 0 0.5rem;
+}
+
+footer a:hover {
+  color: #213547;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

@@ -1,5 +1,5 @@
 <script>
-  import formatDate from '../../lib/formatDate'
+  import formatDate from '../../../lib/formatDate'
 
   export let data
   export let posts = data.posts

@@ -1,4 +1,4 @@
-import client from '../../../lib/sanityClient'
+import client from '../../../../lib/sanityClient'
 
 export async function load({ params }) {
   // Access the _id from the params object ✨

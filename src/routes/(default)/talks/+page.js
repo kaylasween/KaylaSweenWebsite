@@ -1,4 +1,4 @@
-import client from '../../lib/sanityClient'
+import client from '../../../lib/sanityClient'
 
 export const load = async ({ params }) => {
     const talks = await client.fetch(/* groq */`*[

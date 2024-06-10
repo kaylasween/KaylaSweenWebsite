@@ -1,7 +1,7 @@
 <script>
   import { PortableText } from '@portabletext/svelte'
-  import CodeBlock from '../../../components/CodeBlock.svelte'
-  import formatDate from '../../../lib/formatDate'
+  import CodeBlock from '../../../../components/CodeBlock.svelte'
+  import formatDate from '../../../../lib/formatDate'
 
   export let data
 </script>
