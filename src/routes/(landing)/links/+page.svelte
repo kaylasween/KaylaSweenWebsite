@@ -3,6 +3,7 @@
   import GoogleDrive from '../../../assets/google-drive.svelte'
   import LinkedIn from '../../../assets/linkedin.svelte'
   import Kayla from '../../../assets/kayla.jpeg'
+  import Watch from '../../../assets/watch.svelte'
 </script>
 
 <img src={Kayla} alt="Kayla Sween" />
@@ -22,6 +23,11 @@
     >
   </li>
   <li><a href="https://github.com/kaylasween"><Github />&nbsp;GitHub</a></li>
+  <li>
+    <a href="https://apps.apple.com/us/app/doodlefidget/id6477495440"
+      ><Watch />&nbsp;DoodleFidget</a
+    >
+  </li>
 </ul>
 
 <style>
@@ -61,8 +67,8 @@
   }
 
   a:hover {
-    background: radial-gradient(40% 50% at center 100%, #fbe3e8, transparent),
-      radial-gradient(80% 100% at center 120%, #ebf6f5, transparent), #95f4f1;
+    /* background: radial-gradient(40% 50% at center 100%, #fbe3e8, transparent),
+      radial-gradient(80% 100% at center 120%, #ebf6f5, transparent), #95f4f1; */
     box-shadow: 0 0 3px 3px #5cbdb9;
   }
 </style>
