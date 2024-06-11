@@ -7,8 +7,8 @@
 
 <h1>Hey! I'm Kayla Sween.</h1>
 <p>
-  I'm currently rebuilding my website using Svelte, so it's a little bare for
-  now.
+  I'm looking for work! I'm adding new content in the blog and project sections,
+  so keep an eye out for that!
 </p>
 
 <p>
