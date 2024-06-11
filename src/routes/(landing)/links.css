@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+body {
+  margin: 0.5rem;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -27,4 +31,12 @@ footer a:hover {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+@media (min-width: 1000px) {
+  small {
+    display: block;
+    margin: 0 auto;
+    width: 50vw;
+  }
 }
