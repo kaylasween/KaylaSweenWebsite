@@ -1,6 +1,5 @@
 <script>
   import Github from '../../../assets/github.svelte'
-  import GoogleDrive from '../../../assets/google-drive.svelte'
   import JavaScript from '../../../assets/javascript.svelte'
   import LinkedIn from '../../../assets/linkedin.svelte'
   import Kayla from '../../../assets/kayla.jpeg'
@@ -15,14 +14,6 @@
   technical lead, or first-time engineering management roles!</small
 >
 <ul>
-  <li>
-    <a
-      href="https://drive.google.com/file/d/1eLBnkfCg9BtV37Knv7CVHzSOt2LxfiVu/view?usp=sharing"
-    >
-      <GoogleDrive />
-      <span>Resume</span></a
-    >
-  </li>
   <li>
     <a href="https://www.linkedin.com/in/kayla-sween/"
       ><LinkedIn /><span>LinkedIn</span></a
