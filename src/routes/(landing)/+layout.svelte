@@ -1,7 +1,6 @@
 <script>
   import './links.css'
   import Github from '../../assets/github.svelte'
-  import Mastodon from '../../assets/mastodon.svelte'
   import Twitter from '../../assets/twitter.svelte'
 </script>
 

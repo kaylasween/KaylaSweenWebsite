@@ -1,6 +1,5 @@
 <script>
   import formatDate from '../../../lib/formatDate'
-
   export let data
   export let posts = data.posts
 </script>
@@ -9,31 +8,30 @@
   <title>Blog | Kayla Sween</title>
 </svelte:head>
 
-<h1>Blog</h1>
-<ul class="blog-list">
-  {#each posts as post}
-    <li class="blog-list-item">
-      <a href={post.slug.current}>{post.title}</a>
-      {formatDate(post.publishedAt)}
-    </li>
-  {/each}
-</ul>
+<div class="game-level-path">
+  <div class="path-segment"></div>
+</div>
+
+<div class="game-level">
+  <h2>Blog Posts</h2>
+  <p>Collect all the blog posts to level up!</p>
+  
+  <ul class="collectibles">
+    {#each posts as post, i}
+      <li class="collectible-item{i % 2 === 0 ? ' wooden' : ''}">
+        <a href={post.slug.current}>{post.title}</a>
+        <span class="crash-date">{formatDate(post.publishedAt)}</span>
+      </li>
+    {/each}
+  </ul>
+</div>
 
 <style>
-  .blog-list {
-    display: flex;
-    justify-content: space-evenly;
-    padding-left: 0;
-    flex-flow: wrap;
-  }
-
-  .blog-list-item {
-    border: 1px solid white;
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    margin: 1rem;
-    padding: 1rem;
-    max-width: 75vw;
+  .crash-date {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: inherit;
+    opacity: 0.8;
   }
 </style>

@@ -6,22 +6,30 @@
 <svelte:head>
 	<title>Projects | Kayla Sween</title>
 </svelte:head>
-    
-<h1>Projects</h1>
-<ul class="project-list">
-    {#each projects as project}
-        <li class="project-list-item">
-            <a href={project.url}>{project.title}</a>
-        </li>
+
+<div class="game-level-path">
+  <div class="path-segment"></div>
+</div>
+
+<div class="game-level">
+  <h2>Project Crates</h2>
+  <p>Smash these crates to see my awesome projects!</p>
+  
+  <ul class="collectibles">
+    {#each projects as project, i}
+      <li class="collectible-item{i % 2 === 1 ? ' wooden' : ''}">
+        <a href={project.url}>{project.title}</a>
+      </li>
     {/each}
-</ul>
+  </ul>
+</div>
 
 <style>
-    .project-list {
+    .collectibles {
         padding-left: 0;
     }
 
-    .project-list-item {
+    .collectible-item {
         list-style-type: none;
     }
 </style>
