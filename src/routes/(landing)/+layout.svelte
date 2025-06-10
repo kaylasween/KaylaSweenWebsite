@@ -1,7 +1,7 @@
 <script>
   import './links.css'
   import Github from '../../assets/github.svelte'
-  import Mastodon from '../../assets/mastodon.svelte'
+  import Bsky from '../../assets/bsky.svelte'
   import Twitter from '../../assets/twitter.svelte'
 </script>
 
@@ -10,6 +10,10 @@
 </main>
 
 <footer>
+  <a href="https://bsky.app/profile/kayla.ooo">
+    <Bsky />
+    <span class="visually-hidden">Bluesky</span>
+  </a>
   <a href="https://twitter.com/_KaylaSween">
     <Twitter />
     <span class="visually-hidden">Twitter</span>
