@@ -9,7 +9,7 @@
 <img src={Kayla} alt="Kayla Sween" />
 <h1>Kayla Sween</h1>
 <small
-  >I've got 9 years of experience in front-end development with 2 years of
+  >I've got 10 years of experience in front-end development with 2 years of
   technical leadership experience. I'm open for senior front-end engineer,
   technical lead, or first-time engineering management roles!</small
 >
