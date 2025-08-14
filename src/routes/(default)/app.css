@@ -21,10 +21,13 @@ a {
   text-decoration: underline;
 }
 
-svg {
+.logo {
   fill: rgba(255, 255, 255, 0.87);
-  height: 6em;
   will-change: filter;
+}
+
+.logo svg {
+  height: 6rem;
 }
 
 body {

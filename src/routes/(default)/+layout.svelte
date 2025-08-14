@@ -4,9 +4,10 @@
   import Github from '../../assets/github.svelte'
   import Mastodon from '../../assets/mastodon.svelte'
   import Twitter from '../../assets/twitter.svelte'
+  import Magnolia from '../../assets/magnolia.svelte'
 </script>
 
-<a href="/">
+<a href="/" class="logo">
   <Logo />
   <span class="visually-hidden">Home</span>
 </a>
@@ -37,4 +38,22 @@
     <Github />
     <span class="visually-hidden">Github</span>
   </a>
+  <a href="https://magnoliaconf.com">
+    <Magnolia />
+    <span class="visually-hidden">MagnoliaConf</span>
+  </a>
 </footer>
+
+<style>
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer a:last-child {
+    margin-left: 0;
+  }
+</style>

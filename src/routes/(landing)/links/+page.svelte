@@ -7,7 +7,7 @@
 </script>
 
 <img src={Kayla} alt="Kayla Sween" />
-<h1><a href="https://kaylasween.dev">Kayla Sween</a></h1>
+<h1><a href="https://kaylasween.com">Kayla Sween</a></h1>
 <small
   >I've got 10 years of experience in front-end development with 2 years of
   technical leadership experience. I'm available for senior front-end engineer,
@@ -125,7 +125,7 @@
     background-size: 200% 100%;
     mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10'%3E%3Cpath d='M0,5 Q5,0 10,5 T20,5 T30,5 T40,5 T50,5 T60,5 T70,5 T80,5 T90,5 T100,5' stroke='black' stroke-width='5' fill='none'/%3E%3C/svg%3E") repeat-x;
     mask-size: 20px 100%;
-    animation: rainbow-wave 2s ease-in-out infinite;
+    animation: rainbow-wave 2s infinite;
   }
 
   @keyframes rainbow-wave {
@@ -133,13 +133,17 @@
       background-position: 0% 0%;
       mask-position: 0px 0%;
     }
-    50% {
+    25% {
       background-position: -100% 0%;
       mask-position: -10px 0%;
     }
-    100% {
+    75% {
       background-position: -200% 0%;
       mask-position: -20px 0%;
+    }
+    100% {
+      background-position: 0% 0%;
+      mask-position: 0px 0%;
     }
   }
 </style>
