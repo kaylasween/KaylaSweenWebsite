@@ -9,20 +9,6 @@ body {
   margin: 0.5rem;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer a {
-  margin: 0 0.5rem;
-}
-
-footer a:hover {
-  color: #213547;
-}
-
 .visually-hidden:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
